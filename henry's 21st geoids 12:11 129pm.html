@@ -1,0 +1,4336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f3de881a4c86e6a2dd352af99ac6d610 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f3de881a4c86e6a2dd352af99ac6d610" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f3de881a4c86e6a2dd352af99ac6d610 = L.map(
+                "map_f3de881a4c86e6a2dd352af99ac6d610",
+                {
+                    center: [36.7783, -119.4179],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e27aae97d6bb85c0baf56aeff13298f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3e27aae97d6bb85c0baf56aeff13298f.addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+            var marker_fe2153d9f42668d490e5b84be2385038 = L.marker(
+                [32.6168967, -116.469373],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_88d6a1eddbdaf90e4df3960fa2c1e5e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cec87ed01faf839c3fb1f372cb9a514b = $(`<div id="html_cec87ed01faf839c3fb1f372cb9a514b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pacific Southwest Railway Museum</h4>         marcus:  the old train museum by Julian east of SD,      </div>     </div>`)[0];
+                popup_88d6a1eddbdaf90e4df3960fa2c1e5e7.setContent(html_cec87ed01faf839c3fb1f372cb9a514b);
+            
+        
+
+        marker_fe2153d9f42668d490e5b84be2385038.bindPopup(popup_88d6a1eddbdaf90e4df3960fa2c1e5e7)
+        ;
+
+        
+    
+    
+            marker_fe2153d9f42668d490e5b84be2385038.bindTooltip(
+                `<div>
+                     Pacific Southwest Railway Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49b045e5d409d67cc6a7ac2ab1c8df87 = L.marker(
+                [32.713796, -117.1751998590286],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_a818a47a2a49b95aac8da9446feef5f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c474ddb407115422c5a61544e2d05b3 = $(`<div id="html_1c474ddb407115422c5a61544e2d05b3" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>USS Midway Museum</h4>         marcus: and maybe the USS Midway. I guess u just have to go to Southern California.     </div>     </div>`)[0];
+                popup_a818a47a2a49b95aac8da9446feef5f2.setContent(html_1c474ddb407115422c5a61544e2d05b3);
+            
+        
+
+        marker_49b045e5d409d67cc6a7ac2ab1c8df87.bindPopup(popup_a818a47a2a49b95aac8da9446feef5f2)
+        ;
+
+        
+    
+    
+            marker_49b045e5d409d67cc6a7ac2ab1c8df87.bindTooltip(
+                `<div>
+                     USS Midway Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_193e16d3a10db613500545d2c046fec5 = L.marker(
+                [32.719176, -117.254059],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_29494a89c5769aa5bc7e2ae8a9bea871 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c52d5008c9887f6c3db2877078a3d61 = $(`<div id="html_7c52d5008c9887f6c3db2877078a3d61" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Sunset Cliffs Beach (Garbage Beach)</h4>         Chloe David: Garbage Beach in San Diego     </div>     </div>`)[0];
+                popup_29494a89c5769aa5bc7e2ae8a9bea871.setContent(html_7c52d5008c9887f6c3db2877078a3d61);
+            
+        
+
+        marker_193e16d3a10db613500545d2c046fec5.bindPopup(popup_29494a89c5769aa5bc7e2ae8a9bea871)
+        ;
+
+        
+    
+    
+            marker_193e16d3a10db613500545d2c046fec5.bindTooltip(
+                `<div>
+                     Sunset Cliffs Beach (Garbage Beach)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82a38ed2ff561dfea7883ebc4e1b4331 = L.marker(
+                [32.8398052, -117.2446880977537],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_3abaa70a9a7259d6d032598ec6520b9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a4e7cbf47f05fd21d30bd5041edef29 = $(`<div id="html_8a4e7cbf47f05fd21d30bd5041edef29" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Mount Soledad Memorial Park</h4>         Daniel D: Mount Soledad Veterans Memorial     </div>     </div>`)[0];
+                popup_3abaa70a9a7259d6d032598ec6520b9b.setContent(html_8a4e7cbf47f05fd21d30bd5041edef29);
+            
+        
+
+        marker_82a38ed2ff561dfea7883ebc4e1b4331.bindPopup(popup_3abaa70a9a7259d6d032598ec6520b9b)
+        ;
+
+        
+    
+    
+            marker_82a38ed2ff561dfea7883ebc4e1b4331.bindTooltip(
+                `<div>
+                     Mount Soledad Memorial Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48a734676bf242c338d35882d976828d = L.marker(
+                [32.8791941, -116.7192201675895],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_4c68671f2821a2fd174bf1c219166c62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bf3d572f13cab8ad370f351bcda72f2 = $(`<div id="html_5bf3d572f13cab8ad370f351bcda72f2" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Cleveland National Forest</h4>         marcus: Unfortunately I know Southern California places, but the first or second stop of the PCT in Cleveland National forest,     </div>     </div>`)[0];
+                popup_4c68671f2821a2fd174bf1c219166c62.setContent(html_5bf3d572f13cab8ad370f351bcda72f2);
+            
+        
+
+        marker_48a734676bf242c338d35882d976828d.bindPopup(popup_4c68671f2821a2fd174bf1c219166c62)
+        ;
+
+        
+    
+    
+            marker_48a734676bf242c338d35882d976828d.bindTooltip(
+                `<div>
+                     Cleveland National Forest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc6061dac5dd5fe5b4300e166a7c10fd = L.marker(
+                [33.38890375, -118.42392875335277],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_eef8780deafdedc9effce407968ca162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d276554fb1b8d40e78f64130d4ec6a64 = $(`<div id="html_d276554fb1b8d40e78f64130d4ec6a64" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Santa Catalina Island</h4>         ishita: catalina island     </div>     </div>`)[0];
+                popup_eef8780deafdedc9effce407968ca162.setContent(html_d276554fb1b8d40e78f64130d4ec6a64);
+            
+        
+
+        marker_bc6061dac5dd5fe5b4300e166a7c10fd.bindPopup(popup_eef8780deafdedc9effce407968ca162)
+        ;
+
+        
+    
+    
+            marker_bc6061dac5dd5fe5b4300e166a7c10fd.bindTooltip(
+                `<div>
+                     Santa Catalina Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_730d9842b1e43e8cbfef7c0486962d14 = L.marker(
+                [33.53803016750853, -117.7743353764181],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_0dded03fead25a6d784fe9523cc5bcc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb7a9dbee32ebc74b67fa1fa4a7d7280 = $(`<div id="html_cb7a9dbee32ebc74b67fa1fa4a7d7280" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Thalia Street Beach</h4>         milena (mulaney): laguna beach (specifically thalia st.),      </div>     </div>`)[0];
+                popup_0dded03fead25a6d784fe9523cc5bcc9.setContent(html_cb7a9dbee32ebc74b67fa1fa4a7d7280);
+            
+        
+
+        marker_730d9842b1e43e8cbfef7c0486962d14.bindPopup(popup_0dded03fead25a6d784fe9523cc5bcc9)
+        ;
+
+        
+    
+    
+            marker_730d9842b1e43e8cbfef7c0486962d14.bindTooltip(
+                `<div>
+                     Thalia Street Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7d64924257727befe80643fcd48827c = L.marker(
+                [33.5426975, -117.785366],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_824af756860538918d7fa166459ac9a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad8b8c2f55cb13f58ad89535a3740b37 = $(`<div id="html_ad8b8c2f55cb13f58ad89535a3740b37" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Laguna Beach</h4>         Julia Yellen: Laguna Beach<br>Lauren Gonzalez: Laguna beach,     </div>     </div>`)[0];
+                popup_824af756860538918d7fa166459ac9a6.setContent(html_ad8b8c2f55cb13f58ad89535a3740b37);
+            
+        
+
+        marker_d7d64924257727befe80643fcd48827c.bindPopup(popup_824af756860538918d7fa166459ac9a6)
+        ;
+
+        
+    
+    
+            marker_d7d64924257727befe80643fcd48827c.bindTooltip(
+                `<div>
+                     Laguna Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0c734186443e7888cfd65d04d17415f = L.marker(
+                [33.5669750477882, -117.8305632978313],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_60ec002c3572bf7df87291348770bd52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63c8994a63b6d78bdf173ba0d2729782 = $(`<div id="html_63c8994a63b6d78bdf173ba0d2729782" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Bear Flag Fish Company</h4>         milena (mulaney): bear flag (restaurant in socal if you’re a fan of fish — get the burrito )     </div>     </div>`)[0];
+                popup_60ec002c3572bf7df87291348770bd52.setContent(html_63c8994a63b6d78bdf173ba0d2729782);
+            
+        
+
+        marker_f0c734186443e7888cfd65d04d17415f.bindPopup(popup_60ec002c3572bf7df87291348770bd52)
+        ;
+
+        
+    
+    
+            marker_f0c734186443e7888cfd65d04d17415f.bindTooltip(
+                `<div>
+                     Bear Flag Fish Company
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e3481d12f0a12b1d3a2564f656e0cb6 = L.marker(
+                [33.73975575, -118.39781405760918],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_b614e7f226bcb837d3a0acb1d21b37d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d30c8ffff09c0740a156d245fc85d1a = $(`<div id="html_8d30c8ffff09c0740a156d245fc85d1a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Terranea Resort</h4>         Raquel: Terranea hotel in Socal,     </div>     </div>`)[0];
+                popup_b614e7f226bcb837d3a0acb1d21b37d1.setContent(html_8d30c8ffff09c0740a156d245fc85d1a);
+            
+        
+
+        marker_7e3481d12f0a12b1d3a2564f656e0cb6.bindPopup(popup_b614e7f226bcb837d3a0acb1d21b37d1)
+        ;
+
+        
+    
+    
+            marker_7e3481d12f0a12b1d3a2564f656e0cb6.bindTooltip(
+                `<div>
+                     Terranea Resort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a3585fbed2dd3fbc32ea58fd63484c8 = L.marker(
+                [33.8246269, -116.540303],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_32a279104371b8b569c2c386ee4fe124 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7fa2a20ddb25c98f5232beb6ca9d953 = $(`<div id="html_d7fa2a20ddb25c98f5232beb6ca9d953" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Palm Springs</h4>         Jake Arft-Guatelli: Palm Springs (see the QR code babies)     </div>     </div>`)[0];
+                popup_32a279104371b8b569c2c386ee4fe124.setContent(html_d7fa2a20ddb25c98f5232beb6ca9d953);
+            
+        
+
+        marker_1a3585fbed2dd3fbc32ea58fd63484c8.bindPopup(popup_32a279104371b8b569c2c386ee4fe124)
+        ;
+
+        
+    
+    
+            marker_1a3585fbed2dd3fbc32ea58fd63484c8.bindTooltip(
+                `<div>
+                     Palm Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a602bce01b91e1131f9961c7f8fa08b = L.marker(
+                [34.00889605, -118.49739978232839],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_0c86fe2274ce9b9d4a6e6b5e05daa0fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e73ca3cef8f04243c1222f58212dc2 = $(`<div id="html_e1e73ca3cef8f04243c1222f58212dc2" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Santa Monica Pier</h4>         Natasha: santa monica pier,     </div>     </div>`)[0];
+                popup_0c86fe2274ce9b9d4a6e6b5e05daa0fb.setContent(html_e1e73ca3cef8f04243c1222f58212dc2);
+            
+        
+
+        marker_6a602bce01b91e1131f9961c7f8fa08b.bindPopup(popup_0c86fe2274ce9b9d4a6e6b5e05daa0fb)
+        ;
+
+        
+    
+    
+            marker_6a602bce01b91e1131f9961c7f8fa08b.bindTooltip(
+                `<div>
+                     Santa Monica Pier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7968593b35c32deb88454bcd80e1b204 = L.marker(
+                [34.023272, -117.158167],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_57f5fe0d85a8eaa5ed7e67c396d77000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71ab75324d8d5d27dd98d9a9a36bc01d = $(`<div id="html_71ab75324d8d5d27dd98d9a9a36bc01d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Caroline Park</h4>         Rebekah Murphy:  I have to plug Redlands... sorry. but if you are ever there for some reason you ought to go to caroline park and a particular road nearby. i can send you on a quest!      </div>     </div>`)[0];
+                popup_57f5fe0d85a8eaa5ed7e67c396d77000.setContent(html_71ab75324d8d5d27dd98d9a9a36bc01d);
+            
+        
+
+        marker_7968593b35c32deb88454bcd80e1b204.bindPopup(popup_57f5fe0d85a8eaa5ed7e67c396d77000)
+        ;
+
+        
+    
+    
+            marker_7968593b35c32deb88454bcd80e1b204.bindTooltip(
+                `<div>
+                     Caroline Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e4356d1bdac8648b94966de633533a7 = L.marker(
+                [34.0555735, -118.25027014187631],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_cb4f555b4ec9bc49e26066d762cf58a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b40409cfef7589e3c2ce5a17662dbec8 = $(`<div id="html_b40409cfef7589e3c2ce5a17662dbec8" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Blue Ribbon Garden</h4>         Amelia Monsour: Disney Hall rooftop garden in LA     </div>     </div>`)[0];
+                popup_cb4f555b4ec9bc49e26066d762cf58a4.setContent(html_b40409cfef7589e3c2ce5a17662dbec8);
+            
+        
+
+        marker_3e4356d1bdac8648b94966de633533a7.bindPopup(popup_cb4f555b4ec9bc49e26066d762cf58a4)
+        ;
+
+        
+    
+    
+            marker_3e4356d1bdac8648b94966de633533a7.bindTooltip(
+                `<div>
+                     Blue Ribbon Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4a054727705ae4bbcc3b99045aa79e0 = L.marker(
+                [34.0637415, -118.2945581],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_8d0d97321d16585fe39c1b829cc8ec66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a74813fa5863379f8218732dc135bb3 = $(`<div id="html_4a74813fa5863379f8218732dc135bb3" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Dan Sung Sa</h4>         SYD: LA: Dan Sung Sa (Korean restaurant/small plates)     </div>     </div>`)[0];
+                popup_8d0d97321d16585fe39c1b829cc8ec66.setContent(html_4a74813fa5863379f8218732dc135bb3);
+            
+        
+
+        marker_c4a054727705ae4bbcc3b99045aa79e0.bindPopup(popup_8d0d97321d16585fe39c1b829cc8ec66)
+        ;
+
+        
+    
+    
+            marker_c4a054727705ae4bbcc3b99045aa79e0.bindTooltip(
+                `<div>
+                     Dan Sung Sa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a7039b035cedb8f045ea3e6f0da0599 = L.marker(
+                [34.1046247, -118.291645],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_6ee5c53795b32cce49bfc3416db79ce4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd0a2c46ef0e8110e8c74608923691a4 = $(`<div id="html_cd0a2c46ef0e8110e8c74608923691a4" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Fred 62</h4>         Amber (one of alison 5): fred 62 in la     </div>     </div>`)[0];
+                popup_6ee5c53795b32cce49bfc3416db79ce4.setContent(html_cd0a2c46ef0e8110e8c74608923691a4);
+            
+        
+
+        marker_6a7039b035cedb8f045ea3e6f0da0599.bindPopup(popup_6ee5c53795b32cce49bfc3416db79ce4)
+        ;
+
+        
+    
+    
+            marker_6a7039b035cedb8f045ea3e6f0da0599.bindTooltip(
+                `<div>
+                     Fred 62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3a620567b0ff30be4cd29bb0db16728 = L.marker(
+                [34.10603354149066, -118.34046762470012],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_339eced463f866c4275e93a56c2a169a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c12de57690d2ed907f0c6282719bbde = $(`<div id="html_0c12de57690d2ed907f0c6282719bbde" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pinehurst Road</h4>         anna: (1) pinehurst road in moraga, ca     </div>     </div>`)[0];
+                popup_339eced463f866c4275e93a56c2a169a.setContent(html_0c12de57690d2ed907f0c6282719bbde);
+            
+        
+
+        marker_f3a620567b0ff30be4cd29bb0db16728.bindPopup(popup_339eced463f866c4275e93a56c2a169a)
+        ;
+
+        
+    
+    
+            marker_f3a620567b0ff30be4cd29bb0db16728.bindTooltip(
+                `<div>
+                     Pinehurst Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ed9a662214bd373750a0e6ebf4e373b = L.marker(
+                [34.121762033310866, -118.31605869365033],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_62c85f2119fafc7a2d44c2f590ac54d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3e59ac2641d6277aaecfa7309606cc1 = $(`<div id="html_e3e59ac2641d6277aaecfa7309606cc1" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Wonder View Trailhead</h4>         Natasha: the hike to the hollywood sign     </div>     </div>`)[0];
+                popup_62c85f2119fafc7a2d44c2f590ac54d3.setContent(html_e3e59ac2641d6277aaecfa7309606cc1);
+            
+        
+
+        marker_9ed9a662214bd373750a0e6ebf4e373b.bindPopup(popup_62c85f2119fafc7a2d44c2f590ac54d3)
+        ;
+
+        
+    
+    
+            marker_9ed9a662214bd373750a0e6ebf4e373b.bindTooltip(
+                `<div>
+                     Wonder View Trailhead
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18fb60dbaf72ba4d17fe7849b899129f = L.marker(
+                [34.12822345, -118.11465055555956],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_07c49eb170148d2ae5f0213c0d86aeb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1009703f78e6caa99364409edbb8832d = $(`<div id="html_1009703f78e6caa99364409edbb8832d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Huntington Library, Art Museum, and Botanical Gardens</h4>         Bridget: 3) Huntington Gardens: this one is basic as fuck but it's so beautiful if you like plants. In my hometown San Marino, CA. Prefect place to take mushrooms.      </div>     </div>`)[0];
+                popup_07c49eb170148d2ae5f0213c0d86aeb3.setContent(html_1009703f78e6caa99364409edbb8832d);
+            
+        
+
+        marker_18fb60dbaf72ba4d17fe7849b899129f.bindPopup(popup_07c49eb170148d2ae5f0213c0d86aeb3)
+        ;
+
+        
+    
+    
+            marker_18fb60dbaf72ba4d17fe7849b899129f.bindTooltip(
+                `<div>
+                     The Huntington Library, Art Museum, and Botanical Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ddb960a09c0ade4c4b8511bf4416e7f = L.marker(
+                [34.15589651281218, -118.02944742303978],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_191fa82bd179364391614ebfe28f9000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a18482f1b36b4b0a9e77f4ccccad97a = $(`<div id="html_1a18482f1b36b4b0a9e77f4ccccad97a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Little Santa Anita</h4>         Amelia Monsour: Little Santa Anita in Sierra Madre (doesn’t look like much on maps but a bunch of houses in the hills fun to walk around in)     </div>     </div>`)[0];
+                popup_191fa82bd179364391614ebfe28f9000.setContent(html_1a18482f1b36b4b0a9e77f4ccccad97a);
+            
+        
+
+        marker_3ddb960a09c0ade4c4b8511bf4416e7f.bindPopup(popup_191fa82bd179364391614ebfe28f9000)
+        ;
+
+        
+    
+    
+            marker_3ddb960a09c0ade4c4b8511bf4416e7f.bindTooltip(
+                `<div>
+                     Little Santa Anita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0187b30b9693a8d2c0a8b654ba8818e = L.marker(
+                [34.15640005, -116.493046879892],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_2497ee5c79aa5be1deed9d2274286e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7803b9f373d4b1a0d6f3a9fceb523fa8 = $(`<div id="html_7803b9f373d4b1a0d6f3a9fceb523fa8" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pappy + Harriet's</h4>         Rebekah Murphy: I love Pappy and Harriets dearly, it is in Pioneertown in Joshua Tree if you have a chance to get out there.     </div>     </div>`)[0];
+                popup_2497ee5c79aa5be1deed9d2274286e36.setContent(html_7803b9f373d4b1a0d6f3a9fceb523fa8);
+            
+        
+
+        marker_d0187b30b9693a8d2c0a8b654ba8818e.bindPopup(popup_2497ee5c79aa5be1deed9d2274286e36)
+        ;
+
+        
+    
+    
+            marker_d0187b30b9693a8d2c0a8b654ba8818e.bindTooltip(
+                `<div>
+                     Pappy + Harriet's
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77356784c01f24114921c31c3ec4917d = L.marker(
+                [34.17085782220021, -117.93327376517267],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_41ffcacccaf7f90f441a66df4df0805b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2bff84e5b1c98938f74628fad723131 = $(`<div id="html_e2bff84e5b1c98938f74628fad723131" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Fern Canyon</h4>         Daya: fern canyon (haven’t been to that one yet)<br>mona Holmer: fern valley     </div>     </div>`)[0];
+                popup_41ffcacccaf7f90f441a66df4df0805b.setContent(html_e2bff84e5b1c98938f74628fad723131);
+            
+        
+
+        marker_77356784c01f24114921c31c3ec4917d.bindPopup(popup_41ffcacccaf7f90f441a66df4df0805b)
+        ;
+
+        
+    
+    
+            marker_77356784c01f24114921c31c3ec4917d.bindTooltip(
+                `<div>
+                     Fern Canyon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a97cd3ac66b6aceacc8cea6c230d5d34 = L.marker(
+                [34.572273119639014, -119.01548450900613],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_0c4aaa231459ae462d3214da1667e9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b65a732ce505fd159e19fedb1d6f1a37 = $(`<div id="html_b65a732ce505fd159e19fedb1d6f1a37" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Sepses Trail, Los Padres National Forest</h4>         anna: (2) sespe trail in los padres national forest      </div>     </div>`)[0];
+                popup_0c4aaa231459ae462d3214da1667e9a1.setContent(html_b65a732ce505fd159e19fedb1d6f1a37);
+            
+        
+
+        marker_a97cd3ac66b6aceacc8cea6c230d5d34.bindPopup(popup_0c4aaa231459ae462d3214da1667e9a1)
+        ;
+
+        
+    
+    
+            marker_a97cd3ac66b6aceacc8cea6c230d5d34.bindTooltip(
+                `<div>
+                     Sepses Trail, Los Padres National Forest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cec11f1a5688b6c674630f76b11c18f = L.marker(
+                [34.5960774, -120.1381144],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_3de1e24a4dffeb008366415169e26cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc9a5123c01d70e208cf0e022608ed24 = $(`<div id="html_cc9a5123c01d70e208cf0e022608ed24" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Solvang</h4>         Antonio Caceres: Solvang     </div>     </div>`)[0];
+                popup_3de1e24a4dffeb008366415169e26cd9.setContent(html_cc9a5123c01d70e208cf0e022608ed24);
+            
+        
+
+        marker_4cec11f1a5688b6c674630f76b11c18f.bindPopup(popup_3de1e24a4dffeb008366415169e26cd9)
+        ;
+
+        
+    
+    
+            marker_4cec11f1a5688b6c674630f76b11c18f.bindTooltip(
+                `<div>
+                     Solvang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd2a0c5363d27eb2eccc8c044c7b6a4b = L.marker(
+                [35.1415854, -120.6424312],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c9a9bde68755f5fb5f98dad1e1f562e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ecde5e46ec51cf61bba269cae59f890 = $(`<div id="html_2ecde5e46ec51cf61bba269cae59f890" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Old West Cinnamon Rolls</h4>         Amelia Monsour: Old West Cinnamon Rolls in Pismo Beach<br>mallory mihm: old west cinnamon rolls     </div>     </div>`)[0];
+                popup_c9a9bde68755f5fb5f98dad1e1f562e7.setContent(html_2ecde5e46ec51cf61bba269cae59f890);
+            
+        
+
+        marker_dd2a0c5363d27eb2eccc8c044c7b6a4b.bindPopup(popup_c9a9bde68755f5fb5f98dad1e1f562e7)
+        ;
+
+        
+    
+    
+            marker_dd2a0c5363d27eb2eccc8c044c7b6a4b.bindTooltip(
+                `<div>
+                     Old West Cinnamon Rolls
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8d6b8fc2dc44488f77ec6a0e86aa745 = L.marker(
+                [35.473485, -120.986634],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_49e87f77f3ed38f2cf1c47dc3d55251d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3dda0376221dab026cac178f9dcd1ad = $(`<div id="html_f3dda0376221dab026cac178f9dcd1ad" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Estero Bluffs Trail</h4>         Kai Matson: and Estero bluffs trails in Cayucos     </div>     </div>`)[0];
+                popup_49e87f77f3ed38f2cf1c47dc3d55251d.setContent(html_f3dda0376221dab026cac178f9dcd1ad);
+            
+        
+
+        marker_d8d6b8fc2dc44488f77ec6a0e86aa745.bindPopup(popup_49e87f77f3ed38f2cf1c47dc3d55251d)
+        ;
+
+        
+    
+    
+            marker_d8d6b8fc2dc44488f77ec6a0e86aa745.bindTooltip(
+                `<div>
+                     Estero Bluffs Trail
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_627b33eabe3a4b29eafd7cfa35c876c0 = L.marker(
+                [35.5630923, -121.08259816054041],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_daac1ae025d9e7f6ae51ef5bbb43c98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67b86983f94327ebef4b63e85dfd088f = $(`<div id="html_67b86983f94327ebef4b63e85dfd088f" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Robin's Restaurant </h4>         Jadyn🌟: Robins (resturaunt in Cambria),      </div>     </div>`)[0];
+                popup_daac1ae025d9e7f6ae51ef5bbb43c98f.setContent(html_67b86983f94327ebef4b63e85dfd088f);
+            
+        
+
+        marker_627b33eabe3a4b29eafd7cfa35c876c0.bindPopup(popup_daac1ae025d9e7f6ae51ef5bbb43c98f)
+        ;
+
+        
+    
+    
+            marker_627b33eabe3a4b29eafd7cfa35c876c0.bindTooltip(
+                `<div>
+                     Robin's Restaurant
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11e5f768085fefe8cef321215ba4b68d = L.marker(
+                [36.23382345, -121.48513436441355],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_1cb7d2852ccf33441d0ca52e2acd7731 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5010f541f8f5f51b800eecf8d05aa80 = $(`<div id="html_c5010f541f8f5f51b800eecf8d05aa80" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Arroyo Seco Campground</h4>         Spike Pike: B)Arroyo Secco is a deep cut but it’s about 3 hours south of Berkeley and is a gorgeous campsite on a river     </div>     </div>`)[0];
+                popup_1cb7d2852ccf33441d0ca52e2acd7731.setContent(html_c5010f541f8f5f51b800eecf8d05aa80);
+            
+        
+
+        marker_11e5f768085fefe8cef321215ba4b68d.bindPopup(popup_1cb7d2852ccf33441d0ca52e2acd7731)
+        ;
+
+        
+    
+    
+            marker_11e5f768085fefe8cef321215ba4b68d.bindTooltip(
+                `<div>
+                     Arroyo Seco Campground
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc4190b535efd21121b84682cfb7c8a1 = L.marker(
+                [36.2393647, -121.81760545993926],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c85840c3f2c020cd4e0a9fa8edb9deee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_136d1d3b79213b2051743ad17fe41e21 = $(`<div id="html_136d1d3b79213b2051743ad17fe41e21" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pfeiffer Beach</h4>         wavey cramer: big sur pink sand key hole beach,     </div>     </div>`)[0];
+                popup_c85840c3f2c020cd4e0a9fa8edb9deee.setContent(html_136d1d3b79213b2051743ad17fe41e21);
+            
+        
+
+        marker_bc4190b535efd21121b84682cfb7c8a1.bindPopup(popup_c85840c3f2c020cd4e0a9fa8edb9deee)
+        ;
+
+        
+    
+    
+            marker_bc4190b535efd21121b84682cfb7c8a1.bindTooltip(
+                `<div>
+                     Pfeiffer Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d63152037fdb74c1fe6b380207b1e5d7 = L.marker(
+                [36.25330545, -121.7832953089027],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_fcaf99dcefd7a61a333af45d5d4f439c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a0398f392b05442040496613418a4c = $(`<div id="html_e8a0398f392b05442040496613418a4c" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pfeiffer Big Sur State Park</h4>         Katelyn: Pfeiffer Big Sur State Park, but also here’s a spreadsheet i’ve compiled of bay area locations to visit/things to do: https://docs.google.com/spreadsheets/d/1m0kF6ZaImT8WRaReCPbn6KCPEOGEyqfUjy1K-5uoZKc/edit     </div>     </div>`)[0];
+                popup_fcaf99dcefd7a61a333af45d5d4f439c.setContent(html_e8a0398f392b05442040496613418a4c);
+            
+        
+
+        marker_d63152037fdb74c1fe6b380207b1e5d7.bindPopup(popup_fcaf99dcefd7a61a333af45d5d4f439c)
+        ;
+
+        
+    
+    
+            marker_d63152037fdb74c1fe6b380207b1e5d7.bindTooltip(
+                `<div>
+                     Pfeiffer Big Sur State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d2a8be68c1a0e24cabc27b6e7f8f36e = L.marker(
+                [36.486251499999995, -121.17114078925317],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_87fdfad553c3235d5cbab47cd89ee898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef7b00b46b02e7dd49c18df62b5b6ad3 = $(`<div id="html_ef7b00b46b02e7dd49c18df62b5b6ad3" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pinnacles National Park</h4>         Lori Yang: Pinnacles Park---gud nature,      </div>     </div>`)[0];
+                popup_87fdfad553c3235d5cbab47cd89ee898.setContent(html_ef7b00b46b02e7dd49c18df62b5b6ad3);
+            
+        
+
+        marker_9d2a8be68c1a0e24cabc27b6e7f8f36e.bindPopup(popup_87fdfad553c3235d5cbab47cd89ee898)
+        ;
+
+        
+    
+    
+            marker_9d2a8be68c1a0e24cabc27b6e7f8f36e.bindTooltip(
+                `<div>
+                     Pinnacles National Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e137e805d08ff97ed44676fe5ac9c0ba = L.marker(
+                [36.5147324, -121.94278761321797],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_8249a11f1f6359e373b8a99138f0ba6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a7c50bc5a76f8fbc1075c85bf0bad7c = $(`<div id="html_3a7c50bc5a76f8fbc1075c85bf0bad7c" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Point Lobos State Natural Reserve</h4>         Lydia: Point Lobos     </div>     </div>`)[0];
+                popup_8249a11f1f6359e373b8a99138f0ba6c.setContent(html_3a7c50bc5a76f8fbc1075c85bf0bad7c);
+            
+        
+
+        marker_e137e805d08ff97ed44676fe5ac9c0ba.bindPopup(popup_8249a11f1f6359e373b8a99138f0ba6c)
+        ;
+
+        
+    
+    
+            marker_e137e805d08ff97ed44676fe5ac9c0ba.bindTooltip(
+                `<div>
+                     Point Lobos State Natural Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5c8de28fee0834895927f8fa2f03e84 = L.marker(
+                [36.5552656, -121.923278],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_7f215cbd97dc605d803f9e74cb1fa2c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_258b791f4e6072140a9a2945d14c3dff = $(`<div id="html_258b791f4e6072140a9a2945d14c3dff" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Carmel-by-the-Sea</h4>         Antonio Caceres: Carmel-by-the-Sea<br>ishita: carmel     </div>     </div>`)[0];
+                popup_7f215cbd97dc605d803f9e74cb1fa2c5.setContent(html_258b791f4e6072140a9a2945d14c3dff);
+            
+        
+
+        marker_b5c8de28fee0834895927f8fa2f03e84.bindPopup(popup_7f215cbd97dc605d803f9e74cb1fa2c5)
+        ;
+
+        
+    
+    
+            marker_b5c8de28fee0834895927f8fa2f03e84.bindTooltip(
+                `<div>
+                     Carmel-by-the-Sea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bc34014a40e262bafd9c715591294bc = L.marker(
+                [36.61808885, -121.90167202803043],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_5473e1d267023ea9f1094958b2114833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16a63b1348acb60a18cae9d285addc08 = $(`<div id="html_16a63b1348acb60a18cae9d285addc08" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Monterey Bay Aquarium </h4>         Tasha Tanabe: Monterey Bay Aquarium      </div>     </div>`)[0];
+                popup_5473e1d267023ea9f1094958b2114833.setContent(html_16a63b1348acb60a18cae9d285addc08);
+            
+        
+
+        marker_3bc34014a40e262bafd9c715591294bc.bindPopup(popup_5473e1d267023ea9f1094958b2114833)
+        ;
+
+        
+    
+    
+            marker_3bc34014a40e262bafd9c715591294bc.bindTooltip(
+                `<div>
+                     Monterey Bay Aquarium 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39607fb70363b0cae31aea7c8068094f = L.marker(
+                [36.96289055, -122.00592720330377],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_7c67a1f98f32a156019120f20e1b57ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04a721f6ba777a6c771051fb328eff85 = $(`<div id="html_04a721f6ba777a6c771051fb328eff85" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Seabright Beach</h4>         Steph Lau: Seabright Beach (also SC),      </div>     </div>`)[0];
+                popup_7c67a1f98f32a156019120f20e1b57ba.setContent(html_04a721f6ba777a6c771051fb328eff85);
+            
+        
+
+        marker_39607fb70363b0cae31aea7c8068094f.bindPopup(popup_7c67a1f98f32a156019120f20e1b57ba)
+        ;
+
+        
+    
+    
+            marker_39607fb70363b0cae31aea7c8068094f.bindTooltip(
+                `<div>
+                     Seabright Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f56923574919bc3f52a9fc1094690ba6 = L.marker(
+                [36.9735415, -121.9618233],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_3f6b227744e5a60dedbd4502ec16dcd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_590ca8cf72f500050524c6f685cbcb0b = $(`<div id="html_590ca8cf72f500050524c6f685cbcb0b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Dharma's Restaurant</h4>         Maddy: Dharma's Restaurant Santa Cruz,      </div>     </div>`)[0];
+                popup_3f6b227744e5a60dedbd4502ec16dcd2.setContent(html_590ca8cf72f500050524c6f685cbcb0b);
+            
+        
+
+        marker_f56923574919bc3f52a9fc1094690ba6.bindPopup(popup_3f6b227744e5a60dedbd4502ec16dcd2)
+        ;
+
+        
+    
+    
+            marker_f56923574919bc3f52a9fc1094690ba6.bindTooltip(
+                `<div>
+                     Dharma's Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50b8ec20b4449d367b4d339f9822802e = L.marker(
+                [36.9910954, -122.16887132877943],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e9fa9f0ad9d5b4d04573700653babf17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a245ce1ca8c36e4da6120fe430dfcdd = $(`<div id="html_8a245ce1ca8c36e4da6120fe430dfcdd" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Panther Beach</h4>         Steph Lau: Panther Beach (Santa Cruz),      </div>     </div>`)[0];
+                popup_e9fa9f0ad9d5b4d04573700653babf17.setContent(html_8a245ce1ca8c36e4da6120fe430dfcdd);
+            
+        
+
+        marker_50b8ec20b4449d367b4d339f9822802e.bindPopup(popup_e9fa9f0ad9d5b4d04573700653babf17)
+        ;
+
+        
+    
+    
+            marker_50b8ec20b4449d367b4d339f9822802e.bindTooltip(
+                `<div>
+                     Panther Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4790af56b294ce6d21eedfc1e6b6a98 = L.marker(
+                [36.9951565, -122.08578892116779],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_a0924c3fc956287ec48815bf279a57d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19ad16903530f0a8aabe873aeefcbc9a = $(`<div id="html_19ad16903530f0a8aabe873aeefcbc9a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Wilder Ranch State Park</h4>         Kanav: Unique ones: Wilder Ranch State Park down in Santa Cruz,     </div>     </div>`)[0];
+                popup_a0924c3fc956287ec48815bf279a57d2.setContent(html_19ad16903530f0a8aabe873aeefcbc9a);
+            
+        
+
+        marker_d4790af56b294ce6d21eedfc1e6b6a98.bindPopup(popup_a0924c3fc956287ec48815bf279a57d2)
+        ;
+
+        
+    
+    
+            marker_d4790af56b294ce6d21eedfc1e6b6a98.bindTooltip(
+                `<div>
+                     Wilder Ranch State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_867596d1c37de5e3a31ad382b1fe3208 = L.marker(
+                [37.0296108, -121.90412635652321],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_aed85533094cc4c086eae9c5207937da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28d51305eb240d3e9f7e5486b4012c9 = $(`<div id="html_b28d51305eb240d3e9f7e5486b4012c9" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Forest of Nisene Marks State Park</h4>         Chloe: You probably know these but some family traditions are hiking in Nisene Marks<br>Emma Caufield:  hike at forest of nisene marks state park and kiss a banana slug     </div>     </div>`)[0];
+                popup_aed85533094cc4c086eae9c5207937da.setContent(html_b28d51305eb240d3e9f7e5486b4012c9);
+            
+        
+
+        marker_867596d1c37de5e3a31ad382b1fe3208.bindPopup(popup_aed85533094cc4c086eae9c5207937da)
+        ;
+
+        
+    
+    
+            marker_867596d1c37de5e3a31ad382b1fe3208.bindTooltip(
+                `<div>
+                     The Forest of Nisene Marks State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ac8e12af8ccc3b3cf2bb10a512d3d7e = L.marker(
+                [37.035238, -122.064625],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ab4ec56d8a808e18e683e3dcf1989c88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc00bdf69dfa5e961486ef3f0106f2ff = $(`<div id="html_fc00bdf69dfa5e961486ef3f0106f2ff" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Garden of Eden - Henry Cowell Redwood State Park</h4>         antonia: Garden of Eden (classic)     </div>     </div>`)[0];
+                popup_ab4ec56d8a808e18e683e3dcf1989c88.setContent(html_fc00bdf69dfa5e961486ef3f0106f2ff);
+            
+        
+
+        marker_2ac8e12af8ccc3b3cf2bb10a512d3d7e.bindPopup(popup_ab4ec56d8a808e18e683e3dcf1989c88)
+        ;
+
+        
+    
+    
+            marker_2ac8e12af8ccc3b3cf2bb10a512d3d7e.bindTooltip(
+                `<div>
+                     Garden of Eden - Henry Cowell Redwood State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecc8fb90cdf18237a3cdcf4761433580 = L.marker(
+                [37.096702, -122.274604],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_3e32592674661c26c3fe7cdbe1a72bbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14f76a9f2ce4d00cec0d6f8dafaf48b4 = $(`<div id="html_14f76a9f2ce4d00cec0d6f8dafaf48b4" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Waddell Beach</h4>         JFink: Waddell Creek Beach (watch kite surfers!).     </div>     </div>`)[0];
+                popup_3e32592674661c26c3fe7cdbe1a72bbe.setContent(html_14f76a9f2ce4d00cec0d6f8dafaf48b4);
+            
+        
+
+        marker_ecc8fb90cdf18237a3cdcf4761433580.bindPopup(popup_3e32592674661c26c3fe7cdbe1a72bbe)
+        ;
+
+        
+    
+    
+            marker_ecc8fb90cdf18237a3cdcf4761433580.bindTooltip(
+                `<div>
+                     Waddell Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd08ba410d41cd82624331b3cd6adc90 = L.marker(
+                [37.09688, -119.32022462880988],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_826952b5316b1b5978757f0c2bf5f62d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c431d6cf2290ffc535fe5d72b88a5800 = $(`<div id="html_c431d6cf2290ffc535fe5d72b88a5800" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Shaver Lake</h4>         lily: shaver lake in the sierras,      </div>     </div>`)[0];
+                popup_826952b5316b1b5978757f0c2bf5f62d.setContent(html_c431d6cf2290ffc535fe5d72b88a5800);
+            
+        
+
+        marker_cd08ba410d41cd82624331b3cd6adc90.bindPopup(popup_826952b5316b1b5978757f0c2bf5f62d)
+        ;
+
+        
+    
+    
+            marker_cd08ba410d41cd82624331b3cd6adc90.bindTooltip(
+                `<div>
+                     Shaver Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a46ac4d0d9496891e3ffd6d5fe44f51 = L.marker(
+                [37.16480715, -122.32823505209385],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_1400105f726f644250d6c51e09f048e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_638a0df0332ae203a77d15c65b9fa66d = $(`<div id="html_638a0df0332ae203a77d15c65b9fa66d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Año Nuevo State Park</h4>         JFink: Ano Nuevo State Park when there are baby seals.     </div>     </div>`)[0];
+                popup_1400105f726f644250d6c51e09f048e8.setContent(html_638a0df0332ae203a77d15c65b9fa66d);
+            
+        
+
+        marker_8a46ac4d0d9496891e3ffd6d5fe44f51.bindPopup(popup_1400105f726f644250d6c51e09f048e8)
+        ;
+
+        
+    
+    
+            marker_8a46ac4d0d9496891e3ffd6d5fe44f51.bindTooltip(
+                `<div>
+                     Año Nuevo State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a65599df48394310737387823a80e92 = L.marker(
+                [37.1760567, -121.8207855],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_6ad9edda4abd24ed71e9080de1e6a716 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d55f017411c2cb77eec8f51e705511e8 = $(`<div id="html_d55f017411c2cb77eec8f51e705511e8" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>New Almaden</h4>         Lori Yang: New Almaden---very pretty, there's a restaurant there that i've never been to but its very nice to walk or drive through;     </div>     </div>`)[0];
+                popup_6ad9edda4abd24ed71e9080de1e6a716.setContent(html_d55f017411c2cb77eec8f51e705511e8);
+            
+        
+
+        marker_3a65599df48394310737387823a80e92.bindPopup(popup_6ad9edda4abd24ed71e9080de1e6a716)
+        ;
+
+        
+    
+    
+            marker_3a65599df48394310737387823a80e92.bindTooltip(
+                `<div>
+                     New Almaden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5391128ecc0127553c2643f011aefcde = L.marker(
+                [37.18702225, -122.39691738105456],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_a3f1d9bdc3111dc41b24badbf8bff18d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2efc0f7aae384a02300a42178e658ffe = $(`<div id="html_2efc0f7aae384a02300a42178e658ffe" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pigeon Point Light Station State Historic Park</h4>         Jay: 37.18499° N, 122.39539° W     </div>     </div>`)[0];
+                popup_a3f1d9bdc3111dc41b24badbf8bff18d.setContent(html_2efc0f7aae384a02300a42178e658ffe);
+            
+        
+
+        marker_5391128ecc0127553c2643f011aefcde.bindPopup(popup_a3f1d9bdc3111dc41b24badbf8bff18d)
+        ;
+
+        
+    
+    
+            marker_5391128ecc0127553c2643f011aefcde.bindTooltip(
+                `<div>
+                     Pigeon Point Light Station State Historic Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_898924c238fea37116c756539b72074a = L.marker(
+                [37.2518924, -122.38228822171382],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_120810b026173413423e7c33e1fe931a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c13038a3b0bcee884afb87cc7da1f6fa = $(`<div id="html_c13038a3b0bcee884afb87cc7da1f6fa" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>South Coast Children's Services Thrift Shop</h4>         Sophie Simon: 2.) Pescadero Thrift Store     </div>     </div>`)[0];
+                popup_120810b026173413423e7c33e1fe931a.setContent(html_c13038a3b0bcee884afb87cc7da1f6fa);
+            
+        
+
+        marker_898924c238fea37116c756539b72074a.bindPopup(popup_120810b026173413423e7c33e1fe931a)
+        ;
+
+        
+    
+    
+            marker_898924c238fea37116c756539b72074a.bindTooltip(
+                `<div>
+                     South Coast Children's Services Thrift Shop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32aa4b62535bb790cf73b9f8d81cf9b6 = L.marker(
+                [37.25572905, -122.3699831262903],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_19157e9802341a6f93de54611ee5ae91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12ed69d63f8cd4f4e7d8734b6423e47c = $(`<div id="html_12ed69d63f8cd4f4e7d8734b6423e47c" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Harley Farms Goat Dairy</h4>         Chloe: Duarte’s + Harley Farms in Pescadero     </div>     </div>`)[0];
+                popup_19157e9802341a6f93de54611ee5ae91.setContent(html_12ed69d63f8cd4f4e7d8734b6423e47c);
+            
+        
+
+        marker_32aa4b62535bb790cf73b9f8d81cf9b6.bindPopup(popup_19157e9802341a6f93de54611ee5ae91)
+        ;
+
+        
+    
+    
+            marker_32aa4b62535bb790cf73b9f8d81cf9b6.bindTooltip(
+                `<div>
+                     Harley Farms Goat Dairy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3424812ffd32c160608437a6d09c1ca7 = L.marker(
+                [37.3085937, -121.9008874],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_b61cbf4bdcb5c821b6387afca400a0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dd7c7eb108c22068cb1341c78c02db0 = $(`<div id="html_2dd7c7eb108c22068cb1341c78c02db0" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Willow Glen</h4>         Lydia: Willow Glen in San Jose to see holiday lights,      </div>     </div>`)[0];
+                popup_b61cbf4bdcb5c821b6387afca400a0f9.setContent(html_2dd7c7eb108c22068cb1341c78c02db0);
+            
+        
+
+        marker_3424812ffd32c160608437a6d09c1ca7.bindPopup(popup_b61cbf4bdcb5c821b6387afca400a0f9)
+        ;
+
+        
+    
+    
+            marker_3424812ffd32c160608437a6d09c1ca7.bindTooltip(
+                `<div>
+                     Willow Glen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c1b7e10c1e8d8c42c0cd3d36db5625c = L.marker(
+                [37.31081175, -119.54500276225633],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_941ba0f0435881771e8ddf295fc4c766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03f5ead2e41fb3affea9a534fb235e23 = $(`<div id="html_03f5ead2e41fb3affea9a534fb235e23" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Bass Lake</h4>         Elias: Bass Lake<br>Rohan Zeller: Bass Lake is really nice, especially in the summer     </div>     </div>`)[0];
+                popup_941ba0f0435881771e8ddf295fc4c766.setContent(html_03f5ead2e41fb3affea9a534fb235e23);
+            
+        
+
+        marker_2c1b7e10c1e8d8c42c0cd3d36db5625c.bindPopup(popup_941ba0f0435881771e8ddf295fc4c766)
+        ;
+
+        
+    
+    
+            marker_2c1b7e10c1e8d8c42c0cd3d36db5625c.bindTooltip(
+                `<div>
+                     Bass Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90fc775c75ce77fc9c1849828fab1304 = L.marker(
+                [37.3209023, -121.94816781768843],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_a5b05a48c6ad1c37ad7aeb73e0fb9cfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccdff930d573af754cdee754a7724b9d = $(`<div id="html_ccdff930d573af754cdee754a7724b9d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Santana Row</h4>         Lori Yang: Santana Row/ Valley Fair AT NIGHT---the lights are super pretty, not a lot of shopping because everything is closed but tis a nice walk,      </div>     </div>`)[0];
+                popup_a5b05a48c6ad1c37ad7aeb73e0fb9cfe.setContent(html_ccdff930d573af754cdee754a7724b9d);
+            
+        
+
+        marker_90fc775c75ce77fc9c1849828fab1304.bindPopup(popup_a5b05a48c6ad1c37ad7aeb73e0fb9cfe)
+        ;
+
+        
+    
+    
+            marker_90fc775c75ce77fc9c1849828fab1304.bindTooltip(
+                `<div>
+                     Santana Row
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe918c92cc97629d94a9c0c311590601 = L.marker(
+                [37.3270468, -122.3868579],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_02174d1c3fda02ddc30e6ab3e1f514b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b44721ffbb2eff9bcf3e57bc4361d48 = $(`<div id="html_0b44721ffbb2eff9bcf3e57bc4361d48" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>San Gregorio General Store</h4>         Kirtana: San gregorio general store,     </div>     </div>`)[0];
+                popup_02174d1c3fda02ddc30e6ab3e1f514b7.setContent(html_0b44721ffbb2eff9bcf3e57bc4361d48);
+            
+        
+
+        marker_fe918c92cc97629d94a9c0c311590601.bindPopup(popup_02174d1c3fda02ddc30e6ab3e1f514b7)
+        ;
+
+        
+    
+    
+            marker_fe918c92cc97629d94a9c0c311590601.bindTooltip(
+                `<div>
+                     San Gregorio General Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8492ddbb8740c5c4713e24ba32a7909 = L.marker(
+                [37.331404, -121.89015656541477],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_21360cdd208891e4817cd5d4f666e72e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de9996f24c9457a33b6d60b2d1423e82 = $(`<div id="html_de9996f24c9457a33b6d60b2d1423e82" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Tech Interactive</h4>         Lori Yang: Tech Museum---yes its for children but still very fun     </div>     </div>`)[0];
+                popup_21360cdd208891e4817cd5d4f666e72e.setContent(html_de9996f24c9457a33b6d60b2d1423e82);
+            
+        
+
+        marker_d8492ddbb8740c5c4713e24ba32a7909.bindPopup(popup_21360cdd208891e4817cd5d4f666e72e)
+        ;
+
+        
+    
+    
+            marker_d8492ddbb8740c5c4713e24ba32a7909.bindTooltip(
+                `<div>
+                     The Tech Interactive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76a1ae7c39727e330c49914b72ab54f3 = L.marker(
+                [37.358771061150456, -122.39943848546763],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_69004ee36696af68643f4e6c99d88682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_049bc10f8e9104d77de36f12bab4173f = $(`<div id="html_049bc10f8e9104d77de36f12bab4173f" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Tunitas Creek Rd</h4>         Sophie Simon:  3.) Tunitas Creek Road (redwoods there are gorgeous)     </div>     </div>`)[0];
+                popup_69004ee36696af68643f4e6c99d88682.setContent(html_049bc10f8e9104d77de36f12bab4173f);
+            
+        
+
+        marker_76a1ae7c39727e330c49914b72ab54f3.bindPopup(popup_69004ee36696af68643f4e6c99d88682)
+        ;
+
+        
+    
+    
+            marker_76a1ae7c39727e330c49914b72ab54f3.bindTooltip(
+                `<div>
+                     Tunitas Creek Rd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60bb6412b28de8506b487f9f6e2e5824 = L.marker(
+                [37.363679, -118.39524],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_f704a0f0856a21a8432cd571432bc32f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d166fd3d69c71310f612fb311b8da2f9 = $(`<div id="html_d166fd3d69c71310f612fb311b8da2f9" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Bishop</h4>         Antonio Caceres: Bishop     </div>     </div>`)[0];
+                popup_f704a0f0856a21a8432cd571432bc32f.setContent(html_d166fd3d69c71310f612fb311b8da2f9);
+            
+        
+
+        marker_60bb6412b28de8506b487f9f6e2e5824.bindPopup(popup_f704a0f0856a21a8432cd571432bc32f)
+        ;
+
+        
+    
+    
+            marker_60bb6412b28de8506b487f9f6e2e5824.bindTooltip(
+                `<div>
+                     Bishop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adf510e5185c1a54712dc0d69e797e70 = L.marker(
+                [37.375462, -122.406816],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_1f24dbc9b29530367f641409a8b64225 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac7674eeb21c6f24eb5708f094dbf7e2 = $(`<div id="html_ac7674eeb21c6f24eb5708f094dbf7e2" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Martin's Beach</h4>         Kyla: martin's beach (this one is top secret, so consider it an excellent price).     </div>     </div>`)[0];
+                popup_1f24dbc9b29530367f641409a8b64225.setContent(html_ac7674eeb21c6f24eb5708f094dbf7e2);
+            
+        
+
+        marker_adf510e5185c1a54712dc0d69e797e70.bindPopup(popup_1f24dbc9b29530367f641409a8b64225)
+        ;
+
+        
+    
+    
+            marker_adf510e5185c1a54712dc0d69e797e70.bindTooltip(
+                `<div>
+                     Martin's Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_172dd87bf6d62c80f8bd07036d1a7696 = L.marker(
+                [37.39370497009449, -122.16192838164207],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_8ef02bb26449e2c4a8d1012cb528d2b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd95575fbce6bdfc577502226242fc3d = $(`<div id="html_bd95575fbce6bdfc577502226242fc3d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Los Trancos Roadside Parking</h4>         Jay: 37.33504° N, 122.16950° W     </div>     </div>`)[0];
+                popup_8ef02bb26449e2c4a8d1012cb528d2b2.setContent(html_bd95575fbce6bdfc577502226242fc3d);
+            
+        
+
+        marker_172dd87bf6d62c80f8bd07036d1a7696.bindPopup(popup_8ef02bb26449e2c4a8d1012cb528d2b2)
+        ;
+
+        
+    
+    
+            marker_172dd87bf6d62c80f8bd07036d1a7696.bindTooltip(
+                `<div>
+                     Los Trancos Roadside Parking
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c7742b94e8f7d6185cdd6e0ca4139a2 = L.marker(
+                [37.435343, -122.320605],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_20af0d98c74425d33260335fb1361316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47fda10a4ff9ec602b6d369fc663c6a7 = $(`<div id="html_47fda10a4ff9ec602b6d369fc663c6a7" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Skyline Trail</h4>         Jay: 37.40876° N, 122.29965° W     </div>     </div>`)[0];
+                popup_20af0d98c74425d33260335fb1361316.setContent(html_47fda10a4ff9ec602b6d369fc663c6a7);
+            
+        
+
+        marker_1c7742b94e8f7d6185cdd6e0ca4139a2.bindPopup(popup_20af0d98c74425d33260335fb1361316)
+        ;
+
+        
+    
+    
+            marker_1c7742b94e8f7d6185cdd6e0ca4139a2.bindTooltip(
+                `<div>
+                     Skyline Trail
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_204acaca5764043634720e8b5e382462 = L.marker(
+                [37.4397144, -122.14806369933734],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_dee4d50835f1bd558e95b48c1917967f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a83400da0002ff0c87640115855d6aa = $(`<div id="html_8a83400da0002ff0c87640115855d6aa" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Elizabeth F. Gamble Garden</h4>         lily: gamble gardens in palo alto,     </div>     </div>`)[0];
+                popup_dee4d50835f1bd558e95b48c1917967f.setContent(html_8a83400da0002ff0c87640115855d6aa);
+            
+        
+
+        marker_204acaca5764043634720e8b5e382462.bindPopup(popup_dee4d50835f1bd558e95b48c1917967f)
+        ;
+
+        
+    
+    
+            marker_204acaca5764043634720e8b5e382462.bindTooltip(
+                `<div>
+                     Elizabeth F. Gamble Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e73eb86b28fa5c74efdb470c1ce96b72 = L.marker(
+                [37.458628, -122.159183],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_08c6c1ca17bf2531b91acb0ada3f9b9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_714dd3aa35905c240b53981385254722 = $(`<div id="html_714dd3aa35905c240b53981385254722" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Henry's Mom's House</h4>         Kai: your moms house     </div>     </div>`)[0];
+                popup_08c6c1ca17bf2531b91acb0ada3f9b9e.setContent(html_714dd3aa35905c240b53981385254722);
+            
+        
+
+        marker_e73eb86b28fa5c74efdb470c1ce96b72.bindPopup(popup_08c6c1ca17bf2531b91acb0ada3f9b9e)
+        ;
+
+        
+    
+    
+            marker_e73eb86b28fa5c74efdb470c1ce96b72.bindTooltip(
+                `<div>
+                     Henry's Mom's House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54fae448a781f4faff4af4485e5dd0eb = L.marker(
+                [37.469924000000006, -122.31135160412019],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e303c7c72957a8858358cb088afebb52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e09b18f8590035d9a9685fac3232e5fe = $(`<div id="html_e09b18f8590035d9a9685fac3232e5fe" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Filoli Historic House & Garden</h4>         Lydia: Filoli Gardens year round,      </div>     </div>`)[0];
+                popup_e303c7c72957a8858358cb088afebb52.setContent(html_e09b18f8590035d9a9685fac3232e5fe);
+            
+        
+
+        marker_54fae448a781f4faff4af4485e5dd0eb.bindPopup(popup_e303c7c72957a8858358cb088afebb52)
+        ;
+
+        
+    
+    
+            marker_54fae448a781f4faff4af4485e5dd0eb.bindTooltip(
+                `<div>
+                     Filoli Historic House & Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf4f6d3e891ecef135ff2abb338241f = L.marker(
+                [37.52011950000001, -122.5096690223618],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_2d4774a856c08f1ba22c9434768a73e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92b9b49c1e10b75c1921f9b0bdef7571 = $(`<div id="html_92b9b49c1e10b75c1921f9b0bdef7571" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Moss Beach</h4>         Sophie Simon: 1.) Moss Beach, California      </div>     </div>`)[0];
+                popup_2d4774a856c08f1ba22c9434768a73e1.setContent(html_92b9b49c1e10b75c1921f9b0bdef7571);
+            
+        
+
+        marker_ccf4f6d3e891ecef135ff2abb338241f.bindPopup(popup_2d4774a856c08f1ba22c9434768a73e1)
+        ;
+
+        
+    
+    
+            marker_ccf4f6d3e891ecef135ff2abb338241f.bindTooltip(
+                `<div>
+                     Moss Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f21ce6171fe6f559a79fe9b11f3a06b0 = L.marker(
+                [37.577181800000005, -122.34859080490115],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_4cd8380b5788062ae92f484394744fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63ceb49a55f76adaddc6d25416f11bd9 = $(`<div id="html_63ceb49a55f76adaddc6d25416f11bd9" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Rasoi Restaurant & Lounge</h4>         Izzy: also rasoi restaurant in burlingame.     </div>     </div>`)[0];
+                popup_4cd8380b5788062ae92f484394744fa9.setContent(html_63ceb49a55f76adaddc6d25416f11bd9);
+            
+        
+
+        marker_f21ce6171fe6f559a79fe9b11f3a06b0.bindPopup(popup_4cd8380b5788062ae92f484394744fa9)
+        ;
+
+        
+    
+    
+            marker_f21ce6171fe6f559a79fe9b11f3a06b0.bindTooltip(
+                `<div>
+                     Rasoi Restaurant & Lounge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a184a9731d0383cf9464dcb9074a7cef = L.marker(
+                [37.5775812, -122.3562135],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_692ce8fcbb71347b546190e8ac26ca02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71b8c0d703d38c294316cac3524f8089 = $(`<div id="html_71b8c0d703d38c294316cac3524f8089" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Hillsborough</h4>         Izzy: walk around hillsbourougj and enjoy the lack of side walk     </div>     </div>`)[0];
+                popup_692ce8fcbb71347b546190e8ac26ca02.setContent(html_71b8c0d703d38c294316cac3524f8089);
+            
+        
+
+        marker_a184a9731d0383cf9464dcb9074a7cef.bindPopup(popup_692ce8fcbb71347b546190e8ac26ca02)
+        ;
+
+        
+    
+    
+            marker_a184a9731d0383cf9464dcb9074a7cef.bindTooltip(
+                `<div>
+                     Hillsborough
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b959df6e085f4832910eee8bd207ecd = L.marker(
+                [37.59274565, -122.36663081288631],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ef725bf30d8ffed4eeb1bd9d3462fc50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63cfc1c713f916f30b5c8bae6c7fa2f5 = $(`<div id="html_63cfc1c713f916f30b5c8bae6c7fa2f5" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Bay Club Broadway Tennis and Pickleball</h4>         Izzy: bay on broadway in burlingame. nice view of the airport.      </div>     </div>`)[0];
+                popup_ef725bf30d8ffed4eeb1bd9d3462fc50.setContent(html_63cfc1c713f916f30b5c8bae6c7fa2f5);
+            
+        
+
+        marker_0b959df6e085f4832910eee8bd207ecd.bindPopup(popup_ef725bf30d8ffed4eeb1bd9d3462fc50)
+        ;
+
+        
+    
+    
+            marker_0b959df6e085f4832910eee8bd207ecd.bindTooltip(
+                `<div>
+                     Bay Club Broadway Tennis and Pickleball
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f183e140c565db8708844ccdcc673e85 = L.marker(
+                [37.6432525, -118.9668509],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e8c1a8a29a98fe8bc81480c340acd3bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc4afafcde2494cb345e2548c5e976f4 = $(`<div id="html_fc4afafcde2494cb345e2548c5e976f4" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Mammoth</h4>         Jake Arft-Guatelli: Mammoth,     </div>     </div>`)[0];
+                popup_e8c1a8a29a98fe8bc81480c340acd3bc.setContent(html_fc4afafcde2494cb345e2548c5e976f4);
+            
+        
+
+        marker_f183e140c565db8708844ccdcc673e85.bindPopup(popup_e8c1a8a29a98fe8bc81480c340acd3bc)
+        ;
+
+        
+    
+    
+            marker_f183e140c565db8708844ccdcc673e85.bindTooltip(
+                `<div>
+                     Mammoth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d28ea909d82050271a04fce221635bc = L.marker(
+                [37.69692205, -122.49838187060496],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c469fb01df2f464714aabc46d094bf4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40a55f99247cb8fbb38b2ad606c100e = $(`<div id="html_e40a55f99247cb8fbb38b2ad606c100e" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Thornton State Beach</h4>         Daya: Thornton State Beach by Daly City     </div>     </div>`)[0];
+                popup_c469fb01df2f464714aabc46d094bf4d.setContent(html_e40a55f99247cb8fbb38b2ad606c100e);
+            
+        
+
+        marker_0d28ea909d82050271a04fce221635bc.bindPopup(popup_c469fb01df2f464714aabc46d094bf4d)
+        ;
+
+        
+    
+    
+            marker_0d28ea909d82050271a04fce221635bc.bindTooltip(
+                `<div>
+                     Thornton State Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08addcdf3910fdda8ecfc4651d627b9a = L.marker(
+                [37.71910365, -122.50329937764495],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_9b3f9f5abc0a012c1d7a2180d89bd6e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e18d87b81aac2d49f56d5979c6068ee4 = $(`<div id="html_e18d87b81aac2d49f56d5979c6068ee4" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Fort Funston</h4>         Nile: Fort Funston (SF)     </div>     </div>`)[0];
+                popup_9b3f9f5abc0a012c1d7a2180d89bd6e8.setContent(html_e18d87b81aac2d49f56d5979c6068ee4);
+            
+        
+
+        marker_08addcdf3910fdda8ecfc4651d627b9a.bindPopup(popup_9b3f9f5abc0a012c1d7a2180d89bd6e8)
+        ;
+
+        
+    
+    
+            marker_08addcdf3910fdda8ecfc4651d627b9a.bindTooltip(
+                `<div>
+                     Fort Funston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bfe5aefd4c2ca7f0277aba3cf6786c1 = L.marker(
+                [37.730343, -119.628304],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_8c8482bcbd8de25218fccfb126cdae73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff00eb33907fe359b659f86f01bd9290 = $(`<div id="html_ff00eb33907fe359b659f86f01bd9290" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Horsetail Falls, Yosemite</h4>         Emma Caufield: and go see the fire fall in yosemite     </div>     </div>`)[0];
+                popup_8c8482bcbd8de25218fccfb126cdae73.setContent(html_ff00eb33907fe359b659f86f01bd9290);
+            
+        
+
+        marker_7bfe5aefd4c2ca7f0277aba3cf6786c1.bindPopup(popup_8c8482bcbd8de25218fccfb126cdae73)
+        ;
+
+        
+    
+    
+            marker_7bfe5aefd4c2ca7f0277aba3cf6786c1.bindTooltip(
+                `<div>
+                     Horsetail Falls, Yosemite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72176e5464c5609a8d31fb8e6d506090 = L.marker(
+                [37.7306704, -119.5736664],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_5065a9830b3113d49ef03c364963d90c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c061b2dd85cde506137af30a55a4a23f = $(`<div id="html_c061b2dd85cde506137af30a55a4a23f" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Glacier Point, Yosemite</h4>         Jadyn🌟: glacier point,     </div>     </div>`)[0];
+                popup_5065a9830b3113d49ef03c364963d90c.setContent(html_c061b2dd85cde506137af30a55a4a23f);
+            
+        
+
+        marker_72176e5464c5609a8d31fb8e6d506090.bindPopup(popup_5065a9830b3113d49ef03c364963d90c)
+        ;
+
+        
+    
+    
+            marker_72176e5464c5609a8d31fb8e6d506090.bindTooltip(
+                `<div>
+                     Glacier Point, Yosemite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1706997f1ed55c2fabc69959caecc92b = L.marker(
+                [37.73837575, -119.57352249956648],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_b83aad4637a50b7263c90e7dfd4cdc96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80d15a8467980a45d23731e90364271b = $(`<div id="html_80d15a8467980a45d23731e90364271b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Curry Village Ice Rink</h4>         Jadyn🌟: ice skate in yosemite valley is cute     </div>     </div>`)[0];
+                popup_b83aad4637a50b7263c90e7dfd4cdc96.setContent(html_80d15a8467980a45d23731e90364271b);
+            
+        
+
+        marker_1706997f1ed55c2fabc69959caecc92b.bindPopup(popup_b83aad4637a50b7263c90e7dfd4cdc96)
+        ;
+
+        
+    
+    
+            marker_1706997f1ed55c2fabc69959caecc92b.bindTooltip(
+                `<div>
+                     Curry Village Ice Rink
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c85910f8c17b867dba9ba39affc7958 = L.marker(
+                [37.7418765, -119.600076],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ebdc57604c626801000faec1390fb36e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a712f6ae90fefcbd29edb42e7d5f8765 = $(`<div id="html_a712f6ae90fefcbd29edb42e7d5f8765" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Spider Caves, Yosemite</h4>         Kai Matson: the “spider caves” near yosemite falls,<br>Kyla: Carlon Falls,      </div>     </div>`)[0];
+                popup_ebdc57604c626801000faec1390fb36e.setContent(html_a712f6ae90fefcbd29edb42e7d5f8765);
+            
+        
+
+        marker_5c85910f8c17b867dba9ba39affc7958.bindPopup(popup_ebdc57604c626801000faec1390fb36e)
+        ;
+
+        
+    
+    
+            marker_5c85910f8c17b867dba9ba39affc7958.bindTooltip(
+                `<div>
+                     Spider Caves, Yosemite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a806adca44e4d2a73328f9a8cc5c9cf = L.marker(
+                [37.7436934, -122.44058590941736],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_cdd5c2556b5a048176fc017af8daa063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b00034fd8056ac75651cf37bbbbb1a0 = $(`<div id="html_9b00034fd8056ac75651cf37bbbbb1a0" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>George Christopher Playground</h4>         Nile: Christopher Playground (SF),     </div>     </div>`)[0];
+                popup_cdd5c2556b5a048176fc017af8daa063.setContent(html_9b00034fd8056ac75651cf37bbbbb1a0);
+            
+        
+
+        marker_5a806adca44e4d2a73328f9a8cc5c9cf.bindPopup(popup_cdd5c2556b5a048176fc017af8daa063)
+        ;
+
+        
+    
+    
+            marker_5a806adca44e4d2a73328f9a8cc5c9cf.bindTooltip(
+                `<div>
+                     George Christopher Playground
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eb06b2956460089fb33d6033c0fe402 = L.marker(
+                [37.74598345, -122.43339950904911],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_96c2d7cc7e3016c9a4a69c4d5a74ea28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b28f4c7ebd1987a2ef82cce45673b87 = $(`<div id="html_5b28f4c7ebd1987a2ef82cce45673b87" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Duncan & Castro Open Space</h4>         Clara Peng: Ina Coolbrith Park Duncan & Castro Open Space     </div>     </div>`)[0];
+                popup_96c2d7cc7e3016c9a4a69c4d5a74ea28.setContent(html_5b28f4c7ebd1987a2ef82cce45673b87);
+            
+        
+
+        marker_2eb06b2956460089fb33d6033c0fe402.bindPopup(popup_96c2d7cc7e3016c9a4a69c4d5a74ea28)
+        ;
+
+        
+    
+    
+            marker_2eb06b2956460089fb33d6033c0fe402.bindTooltip(
+                `<div>
+                     Duncan & Castro Open Space
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_714ae78b1daee6e06583fece8a98b61c = L.marker(
+                [37.760009, -122.227929],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_847ded2b15477079423e989f13f30dbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16d21ac655a3c9c6819a92a96fb6a753 = $(`<div id="html_16d21ac655a3c9c6819a92a96fb6a753" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Christmas Tree Lane</h4>         ishita: christmas tree lane in alameda     </div>     </div>`)[0];
+                popup_847ded2b15477079423e989f13f30dbf.setContent(html_16d21ac655a3c9c6819a92a96fb6a753);
+            
+        
+
+        marker_714ae78b1daee6e06583fece8a98b61c.bindPopup(popup_847ded2b15477079423e989f13f30dbf)
+        ;
+
+        
+    
+    
+            marker_714ae78b1daee6e06583fece8a98b61c.bindTooltip(
+                `<div>
+                     Christmas Tree Lane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb11c316a0732335c1e242cffa5bad35 = L.marker(
+                [37.7633828, -122.4784243],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_4ba310286115dd9f6cee8aad02718f0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0898a0d24feca55fa53bbbfccfbe887c = $(`<div id="html_0898a0d24feca55fa53bbbfccfbe887c" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pineapple King Bakery - San Francisco</h4>         Steph Lau: San Tung & Pineapple King Bakery (Irving St. SF)      </div>     </div>`)[0];
+                popup_4ba310286115dd9f6cee8aad02718f0f.setContent(html_0898a0d24feca55fa53bbbfccfbe887c);
+            
+        
+
+        marker_fb11c316a0732335c1e242cffa5bad35.bindPopup(popup_4ba310286115dd9f6cee8aad02718f0f)
+        ;
+
+        
+    
+    
+            marker_fb11c316a0732335c1e242cffa5bad35.bindTooltip(
+                `<div>
+                     Pineapple King Bakery - San Francisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea5539ce0b316199f5e8614dec7b37fe = L.marker(
+                [37.76381308095383, -122.51027705775815],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_65f2efe056d9a65fe38f2056a360c67d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79acc3547442dcdb75f221943982ad41 = $(`<div id="html_79acc3547442dcdb75f221943982ad41" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Ocean Beach</h4>         Emma Caufield: beach bonfire at ocean beach     </div>     </div>`)[0];
+                popup_65f2efe056d9a65fe38f2056a360c67d.setContent(html_79acc3547442dcdb75f221943982ad41);
+            
+        
+
+        marker_ea5539ce0b316199f5e8614dec7b37fe.bindPopup(popup_65f2efe056d9a65fe38f2056a360c67d)
+        ;
+
+        
+    
+    
+            marker_ea5539ce0b316199f5e8614dec7b37fe.bindTooltip(
+                `<div>
+                     Ocean Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f38986dd1e25028cd327e6e7384f3cba = L.marker(
+                [37.765985650000005, -122.3862350584217],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_a0724b4b2cb2f6c1fecead2c18e36af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_827455f2b0bb68ac893088035f89bb93 = $(`<div id="html_827455f2b0bb68ac893088035f89bb93" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Agua Vista Pier</h4>         lily: the tiny pier behind oracle park     </div>     </div>`)[0];
+                popup_a0724b4b2cb2f6c1fecead2c18e36af3.setContent(html_827455f2b0bb68ac893088035f89bb93);
+            
+        
+
+        marker_f38986dd1e25028cd327e6e7384f3cba.bindPopup(popup_a0724b4b2cb2f6c1fecead2c18e36af3)
+        ;
+
+        
+    
+    
+            marker_f38986dd1e25028cd327e6e7384f3cba.bindTooltip(
+                `<div>
+                     Agua Vista Pier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb77c4c212e90dec56d9f7620df40bfd = L.marker(
+                [37.7681783, -122.49275806808737],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_1e93aecfa34d5d03a98b8eefc6e5558f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4fcc014b486c23b20f4147c0845f9c1 = $(`<div id="html_e4fcc014b486c23b20f4147c0845f9c1" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Golden Gate Park Loop</h4>         Samantha Cinelli: Taking a day to do the golden gate park loop     </div>     </div>`)[0];
+                popup_1e93aecfa34d5d03a98b8eefc6e5558f.setContent(html_e4fcc014b486c23b20f4147c0845f9c1);
+            
+        
+
+        marker_cb77c4c212e90dec56d9f7620df40bfd.bindPopup(popup_1e93aecfa34d5d03a98b8eefc6e5558f)
+        ;
+
+        
+    
+    
+            marker_cb77c4c212e90dec56d9f7620df40bfd.bindTooltip(
+                `<div>
+                     Golden Gate Park Loop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_637406308c08b677c147e9489c259c23 = L.marker(
+                [37.772724, -122.464048],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_5777eae9ce4fe1c45df8c25f450d70ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90b10546fb9cebe6ab56b82323b5e9ab = $(`<div id="html_90b10546fb9cebe6ab56b82323b5e9ab" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>6th Avenue Skate Park</h4>         Rebekah Murphy: I really love Golden Gate Park on Sunday and watching the rollerbladers but I am sure you have done that as well.      </div>     </div>`)[0];
+                popup_5777eae9ce4fe1c45df8c25f450d70ef.setContent(html_90b10546fb9cebe6ab56b82323b5e9ab);
+            
+        
+
+        marker_637406308c08b677c147e9489c259c23.bindPopup(popup_5777eae9ce4fe1c45df8c25f450d70ef)
+        ;
+
+        
+    
+    
+            marker_637406308c08b677c147e9489c259c23.bindTooltip(
+                `<div>
+                     6th Avenue Skate Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0383a67f9a6838ab5aa8bb464e2381ed = L.marker(
+                [37.7756732, -122.433128],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c2960c6922d48871b10bfab6540c3685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b2ada2383b1896d122a431c0af124d7 = $(`<div id="html_4b2ada2383b1896d122a431c0af124d7" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Painted Ladies</h4>         Sofia Wallace: you've definitely been here but the painted ladies/alamo square in sf! specifically at sunset.     </div>     </div>`)[0];
+                popup_c2960c6922d48871b10bfab6540c3685.setContent(html_4b2ada2383b1896d122a431c0af124d7);
+            
+        
+
+        marker_0383a67f9a6838ab5aa8bb464e2381ed.bindPopup(popup_c2960c6922d48871b10bfab6540c3685)
+        ;
+
+        
+    
+    
+            marker_0383a67f9a6838ab5aa8bb464e2381ed.bindTooltip(
+                `<div>
+                     The Painted Ladies
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12285a6b1de2c75e75aa02098e4f79fc = L.marker(
+                [37.775869, -122.4226658],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ef90e957a8157f2192210013fc914aba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61224c1038f744b4b98904ff1c901ccf = $(`<div id="html_61224c1038f744b4b98904ff1c901ccf" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Dumpling Home</h4>         Joelle!: dumpling home in san francisco,      </div>     </div>`)[0];
+                popup_ef90e957a8157f2192210013fc914aba.setContent(html_61224c1038f744b4b98904ff1c901ccf);
+            
+        
+
+        marker_12285a6b1de2c75e75aa02098e4f79fc.bindPopup(popup_ef90e957a8157f2192210013fc914aba)
+        ;
+
+        
+    
+    
+            marker_12285a6b1de2c75e75aa02098e4f79fc.bindTooltip(
+                `<div>
+                     Dumpling Home
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fc61bee8ed1a6bf6e2ee18a091bda9b = L.marker(
+                [37.77680423841537, -122.51214824669493],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_a7f751acf8f5234000349f101f4843ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_041c12930bcfa7d0766d89c2b9fd6bc7 = $(`<div id="html_041c12930bcfa7d0766d89c2b9fd6bc7" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Camera Obscura & Holograph Gallery</h4>         Clara Peng: Camera Obscura/Sutro Baths!     </div>     </div>`)[0];
+                popup_a7f751acf8f5234000349f101f4843ca.setContent(html_041c12930bcfa7d0766d89c2b9fd6bc7);
+            
+        
+
+        marker_1fc61bee8ed1a6bf6e2ee18a091bda9b.bindPopup(popup_a7f751acf8f5234000349f101f4843ca)
+        ;
+
+        
+    
+    
+            marker_1fc61bee8ed1a6bf6e2ee18a091bda9b.bindTooltip(
+                `<div>
+                     Camera Obscura & Holograph Gallery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9208cf54d4ef9f6d254597d3fe5108f = L.marker(
+                [37.7792588, -122.4193286],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_0756a2540ef9ff186ca084dcf6f55219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5da7c553ef10867fae7ff40b68779fa = $(`<div id="html_c5da7c553ef10867fae7ff40b68779fa" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Castle Street</h4>         Ryan Whitty: 1. Castle Street, San Francisco<br>Steph Lau: Clement St. SF,      </div>     </div>`)[0];
+                popup_0756a2540ef9ff186ca084dcf6f55219.setContent(html_c5da7c553ef10867fae7ff40b68779fa);
+            
+        
+
+        marker_d9208cf54d4ef9f6d254597d3fe5108f.bindPopup(popup_0756a2540ef9ff186ca084dcf6f55219)
+        ;
+
+        
+    
+    
+            marker_d9208cf54d4ef9f6d254597d3fe5108f.bindTooltip(
+                `<div>
+                     Castle Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3babd3eb701c0e8f51b241d291b9f71 = L.marker(
+                [37.7792929, -122.41926010226872],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e8fe5226d41e0aed6c77ea4146633f52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bef0ae58bdb6a2a622c551d7ab2b827 = $(`<div id="html_1bef0ae58bdb6a2a622c551d7ab2b827" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>San Francisco City Hall</h4>         kritis: city hall,     </div>     </div>`)[0];
+                popup_e8fe5226d41e0aed6c77ea4146633f52.setContent(html_1bef0ae58bdb6a2a622c551d7ab2b827);
+            
+        
+
+        marker_e3babd3eb701c0e8f51b241d291b9f71.bindPopup(popup_e8fe5226d41e0aed6c77ea4146633f52)
+        ;
+
+        
+    
+    
+            marker_e3babd3eb701c0e8f51b241d291b9f71.bindTooltip(
+                `<div>
+                     San Francisco City Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8a0dbd88b832920481540dd40a546ed = L.marker(
+                [37.7797604, -122.51160412179487],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_cc4649a3716af8f664ee5e2e32f3b7f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6678268aa35536c207044d842eae487 = $(`<div id="html_d6678268aa35536c207044d842eae487" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Lands End Lookout</h4>         Chloe David: Lands End (thanks alison)     </div>     </div>`)[0];
+                popup_cc4649a3716af8f664ee5e2e32f3b7f9.setContent(html_d6678268aa35536c207044d842eae487);
+            
+        
+
+        marker_c8a0dbd88b832920481540dd40a546ed.bindPopup(popup_cc4649a3716af8f664ee5e2e32f3b7f9)
+        ;
+
+        
+    
+    
+            marker_c8a0dbd88b832920481540dd40a546ed.bindTooltip(
+                `<div>
+                     Lands End Lookout
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea347cd55d83b1f14d0ed7d67267f7de = L.marker(
+                [37.780484, -122.2599692],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_6a09f439349d03e0779fe4ecaa1351ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cea3f5fca19033140f771620157bcf3b = $(`<div id="html_cea3f5fca19033140f771620157bcf3b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Encinal Basin</h4>         Sophia Roy-Burman: Encinal Basin in alameda,      </div>     </div>`)[0];
+                popup_6a09f439349d03e0779fe4ecaa1351ee.setContent(html_cea3f5fca19033140f771620157bcf3b);
+            
+        
+
+        marker_ea347cd55d83b1f14d0ed7d67267f7de.bindPopup(popup_6a09f439349d03e0779fe4ecaa1351ee)
+        ;
+
+        
+    
+    
+            marker_ea347cd55d83b1f14d0ed7d67267f7de.bindTooltip(
+                `<div>
+                     Encinal Basin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14f64b7d60c1f1e37103d4401772b06c = L.marker(
+                [37.7839108, -122.4144505],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_71d5c48fc1df2b8f9d2b35be89a86792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81aea2e50e88c2873a39363a41462136 = $(`<div id="html_81aea2e50e88c2873a39363a41462136" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Black Cat </h4>         Shubhangi Bose: The Black Cat      </div>     </div>`)[0];
+                popup_71d5c48fc1df2b8f9d2b35be89a86792.setContent(html_81aea2e50e88c2873a39363a41462136);
+            
+        
+
+        marker_14f64b7d60c1f1e37103d4401772b06c.bindPopup(popup_71d5c48fc1df2b8f9d2b35be89a86792)
+        ;
+
+        
+    
+    
+            marker_14f64b7d60c1f1e37103d4401772b06c.bindTooltip(
+                `<div>
+                     The Black Cat 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ed53d47e2628eafe027f48f46df31d5 = L.marker(
+                [37.784464, -122.4037068],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_7f83461252f864dfbbc01eb02c001b6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67cf7b4ecba184e3c302021bae3c40d9 = $(`<div id="html_67cf7b4ecba184e3c302021bae3c40d9" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>AMC Metreon 16</h4>         Kai: amc meteron 16 for a 70mm showing,     </div>     </div>`)[0];
+                popup_7f83461252f864dfbbc01eb02c001b6f.setContent(html_67cf7b4ecba184e3c302021bae3c40d9);
+            
+        
+
+        marker_1ed53d47e2628eafe027f48f46df31d5.bindPopup(popup_7f83461252f864dfbbc01eb02c001b6f)
+        ;
+
+        
+    
+    
+            marker_1ed53d47e2628eafe027f48f46df31d5.bindTooltip(
+                `<div>
+                     AMC Metreon 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44ca2e7a137b2e39cf3731e3d07eea9c = L.marker(
+                [37.7883104, -122.490820531761],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_cf085f9ab74bd1d7037f120ac9597384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d1bf57d3b0a06d2199e8fd2c1582c7a = $(`<div id="html_2d1bf57d3b0a06d2199e8fd2c1582c7a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>China Beach, San Francisco</h4>         Erica Lizundia: China Beach, SF (for anemones)     </div>     </div>`)[0];
+                popup_cf085f9ab74bd1d7037f120ac9597384.setContent(html_2d1bf57d3b0a06d2199e8fd2c1582c7a);
+            
+        
+
+        marker_44ca2e7a137b2e39cf3731e3d07eea9c.bindPopup(popup_cf085f9ab74bd1d7037f120ac9597384)
+        ;
+
+        
+    
+    
+            marker_44ca2e7a137b2e39cf3731e3d07eea9c.bindTooltip(
+                `<div>
+                     China Beach, San Francisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac7b86d8afc46a28c12ccbeab69817ab = L.marker(
+                [37.7911804, -122.43769409268963],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e211dbc70b7a9faddf8a53535e5cd66b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcdc1e98ce59829ed7122e45d846ba88 = $(`<div id="html_fcdc1e98ce59829ed7122e45d846ba88" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Alta Plaza Park</h4>         kritis: alta plaza park sf     </div>     </div>`)[0];
+                popup_e211dbc70b7a9faddf8a53535e5cd66b.setContent(html_fcdc1e98ce59829ed7122e45d846ba88);
+            
+        
+
+        marker_ac7b86d8afc46a28c12ccbeab69817ab.bindPopup(popup_e211dbc70b7a9faddf8a53535e5cd66b)
+        ;
+
+        
+    
+    
+            marker_ac7b86d8afc46a28c12ccbeab69817ab.bindTooltip(
+                `<div>
+                     Alta Plaza Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff07187dcf8f5386bae12bebca33e7b4 = L.marker(
+                [37.7927171, -122.4356445],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_5f2df4421275a5320a12c26f0f353081 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e644169e4910fe8dca8bf62efd5e05 = $(`<div id="html_24e644169e4910fe8dca8bf62efd5e05" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Pacific Heights</h4>         grace: pacific heights.     </div>     </div>`)[0];
+                popup_5f2df4421275a5320a12c26f0f353081.setContent(html_24e644169e4910fe8dca8bf62efd5e05);
+            
+        
+
+        marker_ff07187dcf8f5386bae12bebca33e7b4.bindPopup(popup_5f2df4421275a5320a12c26f0f353081)
+        ;
+
+        
+    
+    
+            marker_ff07187dcf8f5386bae12bebca33e7b4.bindTooltip(
+                `<div>
+                     Pacific Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ea63dec780e15365a4e02e6f195f1a9 = L.marker(
+                [37.79565045, -122.39257979124164],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_214956a650e287c0a145b5ce99b9a35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e655c46fdbb733971f349a8ae15dc70 = $(`<div id="html_7e655c46fdbb733971f349a8ae15dc70" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Golden Gate Ferry Terminal</h4>         grace: taking the ferry to marin or sausalito     </div>     </div>`)[0];
+                popup_214956a650e287c0a145b5ce99b9a35a.setContent(html_7e655c46fdbb733971f349a8ae15dc70);
+            
+        
+
+        marker_7ea63dec780e15365a4e02e6f195f1a9.bindPopup(popup_214956a650e287c0a145b5ce99b9a35a)
+        ;
+
+        
+    
+    
+            marker_7ea63dec780e15365a4e02e6f195f1a9.bindTooltip(
+                `<div>
+                     Golden Gate Ferry Terminal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4811e6b0a6fff3f118923d9f8d1668f3 = L.marker(
+                [37.80003455, -122.41014572296709],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_8d91d30623d21371e8a9d5396b18120b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9c877894fc37c88045134988ffa98ca = $(`<div id="html_f9c877894fc37c88045134988ffa98ca" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Il cilentano Pasta Bar</h4>         Charlotte: Il cilentano Pasta Bar - in sf it's low key and it's super yummy     </div>     </div>`)[0];
+                popup_8d91d30623d21371e8a9d5396b18120b.setContent(html_f9c877894fc37c88045134988ffa98ca);
+            
+        
+
+        marker_4811e6b0a6fff3f118923d9f8d1668f3.bindPopup(popup_8d91d30623d21371e8a9d5396b18120b)
+        ;
+
+        
+    
+    
+            marker_4811e6b0a6fff3f118923d9f8d1668f3.bindTooltip(
+                `<div>
+                     Il cilentano Pasta Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a01c4f77fd24def168386cc2546b336c = L.marker(
+                [37.804721, -122.427564],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_331d179d8828dfc38cd7913d6e790642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_016ce21913e51878c362c06f207b27f8 = $(`<div id="html_016ce21913e51878c362c06f207b27f8" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Interval at Long Now</h4>         grace: the interval, awesome bar in sf.     </div>     </div>`)[0];
+                popup_331d179d8828dfc38cd7913d6e790642.setContent(html_016ce21913e51878c362c06f207b27f8);
+            
+        
+
+        marker_a01c4f77fd24def168386cc2546b336c.bindPopup(popup_331d179d8828dfc38cd7913d6e790642)
+        ;
+
+        
+    
+    
+            marker_a01c4f77fd24def168386cc2546b336c.bindTooltip(
+                `<div>
+                     The Interval at Long Now
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e01d16341bda4a9e50d7179a6af46ff7 = L.marker(
+                [37.813609408163266, -122.26522881632653],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ad8f77493334f1fd5325b4c58bf557a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d02262e4a6422e226445dd62d695deb = $(`<div id="html_5d02262e4a6422e226445dd62d695deb" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>AU Lounge</h4>         Bridget: 2) Au Lounge restaurant in Oakland: best seafood soul food I've ever had in my entire life. Pricey but fire.     </div>     </div>`)[0];
+                popup_ad8f77493334f1fd5325b4c58bf557a0.setContent(html_5d02262e4a6422e226445dd62d695deb);
+            
+        
+
+        marker_e01d16341bda4a9e50d7179a6af46ff7.bindPopup(popup_ad8f77493334f1fd5325b4c58bf557a0)
+        ;
+
+        
+    
+    
+            marker_e01d16341bda4a9e50d7179a6af46ff7.bindTooltip(
+                `<div>
+                     AU Lounge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff883156b3f14adf445785037f3e1208 = L.marker(
+                [37.8138235, -122.2675588],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c9b8318ad5bee75776f74773e2acca46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5861ccc540cf6a99e8cfd709a3d7d6 = $(`<div id="html_5f5861ccc540cf6a99e8cfd709a3d7d6" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The New Parkway Theater</h4>         Natalie: the new parkway theater is amazing vibes<br>Orlando: the new parkway theater in Oakland, <br>Spike Pike: A) New Parkway Theater is quite an experience (and cheap!)      </div>     </div>`)[0];
+                popup_c9b8318ad5bee75776f74773e2acca46.setContent(html_5f5861ccc540cf6a99e8cfd709a3d7d6);
+            
+        
+
+        marker_ff883156b3f14adf445785037f3e1208.bindPopup(popup_c9b8318ad5bee75776f74773e2acca46)
+        ;
+
+        
+    
+    
+            marker_ff883156b3f14adf445785037f3e1208.bindTooltip(
+                `<div>
+                     The New Parkway Theater
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27b63fd0138ef936166e4a54fe618577 = L.marker(
+                [37.8176155, -122.47831227441239],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_23efe4a79e7075998dbce8f46b16f790 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5247ad97e14028dbc9a70b96047df54c = $(`<div id="html_5247ad97e14028dbc9a70b96047df54c" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Golden Gate Bridge</h4>         kritis: walking on the golden gate bridge,     </div>     </div>`)[0];
+                popup_23efe4a79e7075998dbce8f46b16f790.setContent(html_5247ad97e14028dbc9a70b96047df54c);
+            
+        
+
+        marker_27b63fd0138ef936166e4a54fe618577.bindPopup(popup_23efe4a79e7075998dbce8f46b16f790)
+        ;
+
+        
+    
+    
+            marker_27b63fd0138ef936166e4a54fe618577.bindTooltip(
+                `<div>
+                     Golden Gate Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d5ac4c35b07e598b00e72061246c8f4 = L.marker(
+                [37.8184631, -122.1806867],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_2f39fe2c375daf80f21fb15f81ffd865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c4508f303e5b34f221829225a676b4a = $(`<div id="html_5c4508f303e5b34f221829225a676b4a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Chabot Space & Science Center</h4>         Orlando: Chabot observatory in Oakland     </div>     </div>`)[0];
+                popup_2f39fe2c375daf80f21fb15f81ffd865.setContent(html_5c4508f303e5b34f221829225a676b4a);
+            
+        
+
+        marker_2d5ac4c35b07e598b00e72061246c8f4.bindPopup(popup_2f39fe2c375daf80f21fb15f81ffd865)
+        ;
+
+        
+    
+    
+            marker_2d5ac4c35b07e598b00e72061246c8f4.bindTooltip(
+                `<div>
+                     Chabot Space & Science Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c16c01b835270b792c475a8272de61cf = L.marker(
+                [37.8239115, -122.50738450308356],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e50c7a08c7d22ea651c904926733acb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f919afe7e904fb7fe752aba5f9eab6b8 = $(`<div id="html_f919afe7e904fb7fe752aba5f9eab6b8" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Black Sands Beach</h4>         Natalie: black sands beach is so pretty if you have not been     </div>     </div>`)[0];
+                popup_e50c7a08c7d22ea651c904926733acb0.setContent(html_f919afe7e904fb7fe752aba5f9eab6b8);
+            
+        
+
+        marker_c16c01b835270b792c475a8272de61cf.bindPopup(popup_e50c7a08c7d22ea651c904926733acb0)
+        ;
+
+        
+    
+    
+            marker_c16c01b835270b792c475a8272de61cf.bindTooltip(
+                `<div>
+                     Black Sands Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_034516f00f353ff1f1b4261e827e9159 = L.marker(
+                [37.826855, -122.2521165],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_8baea4a2febe5233f07b750506f9e8e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb9e54eed24ff4e2c9c83a8ec1bfc561 = $(`<div id="html_bb9e54eed24ff4e2c9c83a8ec1bfc561" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Mille Fiori</h4>         mallory mihm: mille fiori,      </div>     </div>`)[0];
+                popup_8baea4a2febe5233f07b750506f9e8e2.setContent(html_bb9e54eed24ff4e2c9c83a8ec1bfc561);
+            
+        
+
+        marker_034516f00f353ff1f1b4261e827e9159.bindPopup(popup_8baea4a2febe5233f07b750506f9e8e2)
+        ;
+
+        
+    
+    
+            marker_034516f00f353ff1f1b4261e827e9159.bindTooltip(
+                `<div>
+                     Mille Fiori
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2003cb54ffad875234800d97dd35363f = L.marker(
+                [37.82728, -122.209578],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_13804f693139a08624edaa9a1d48a719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_febf052e09ac3dbbf4ed12bc35767c44 = $(`<div id="html_febf052e09ac3dbbf4ed12bc35767c44" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>montclair neighborhood</h4>         Kanav: Montclair neighborhood in Oakland hills     </div>     </div>`)[0];
+                popup_13804f693139a08624edaa9a1d48a719.setContent(html_febf052e09ac3dbbf4ed12bc35767c44);
+            
+        
+
+        marker_2003cb54ffad875234800d97dd35363f.bindPopup(popup_13804f693139a08624edaa9a1d48a719)
+        ;
+
+        
+    
+    
+            marker_2003cb54ffad875234800d97dd35363f.bindTooltip(
+                `<div>
+                     montclair neighborhood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60ccc33a0743aad3b6de49e4c5777701 = L.marker(
+                [37.8282415, -122.49003566809056],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_77a541b87408e8e9455374c0042579b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7933d2766d9406d1ea954a4010dd668 = $(`<div id="html_a7933d2766d9406d1ea954a4010dd668" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Kirby Cove</h4>         Kirtana: and kirby cove     </div>     </div>`)[0];
+                popup_77a541b87408e8e9455374c0042579b2.setContent(html_a7933d2766d9406d1ea954a4010dd668);
+            
+        
+
+        marker_60ccc33a0743aad3b6de49e4c5777701.bindPopup(popup_77a541b87408e8e9455374c0042579b2)
+        ;
+
+        
+    
+    
+            marker_60ccc33a0743aad3b6de49e4c5777701.bindTooltip(
+                `<div>
+                     Kirby Cove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c8cea98ea91bb7541f0ec2785e49aea = L.marker(
+                [37.830547949999996, -122.53646441316393],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_55c1a24800cfd7978d132a2d1f585dea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7062a4d10874bcbe7ac51c53f502dce = $(`<div id="html_e7062a4d10874bcbe7ac51c53f502dce" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Rodeo Beach</h4>         Erica Lizundia: Rodeo Beach, Marin (for stars)     </div>     </div>`)[0];
+                popup_55c1a24800cfd7978d132a2d1f585dea.setContent(html_e7062a4d10874bcbe7ac51c53f502dce);
+            
+        
+
+        marker_6c8cea98ea91bb7541f0ec2785e49aea.bindPopup(popup_55c1a24800cfd7978d132a2d1f585dea)
+        ;
+
+        
+    
+    
+            marker_6c8cea98ea91bb7541f0ec2785e49aea.bindTooltip(
+                `<div>
+                     Rodeo Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c9858672261489b2756e2a2bdca664 = L.marker(
+                [37.8316822, -122.18540774424739],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_7aecc5bbde2629ade7cbed06a3d54530 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c1196aff432f2e6ff3d821c9eadfb11 = $(`<div id="html_5c1196aff432f2e6ff3d821c9eadfb11" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Skyline Gate Staging Area</h4>         Maddy: Skyline Gate Staging Area Trail Head,     </div>     </div>`)[0];
+                popup_7aecc5bbde2629ade7cbed06a3d54530.setContent(html_5c1196aff432f2e6ff3d821c9eadfb11);
+            
+        
+
+        marker_25c9858672261489b2756e2a2bdca664.bindPopup(popup_7aecc5bbde2629ade7cbed06a3d54530)
+        ;
+
+        
+    
+    
+            marker_25c9858672261489b2756e2a2bdca664.bindTooltip(
+                `<div>
+                     Skyline Gate Staging Area
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1226f4dacb55e93b7f1d1076bf0a9190 = L.marker(
+                [37.855682099999996, -122.53372468815633],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ff1e352ef47de4dfda88c0289de06145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bdc4909484ead03207c024dd90379b9 = $(`<div id="html_3bdc4909484ead03207c024dd90379b9" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Marin Headlands</h4>         Trevor Fox: Marin Headlands,     </div>     </div>`)[0];
+                popup_ff1e352ef47de4dfda88c0289de06145.setContent(html_3bdc4909484ead03207c024dd90379b9);
+            
+        
+
+        marker_1226f4dacb55e93b7f1d1076bf0a9190.bindPopup(popup_ff1e352ef47de4dfda88c0289de06145)
+        ;
+
+        
+    
+    
+            marker_1226f4dacb55e93b7f1d1076bf0a9190.bindTooltip(
+                `<div>
+                     Marin Headlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea2097465aa3dc94f9eda924e20b9c5d = L.marker(
+                [37.85666545, -122.25330667493242],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_7aafefaf2b7b2ed9f310d30253fa638e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb545743933fff48bc3eb1b6ed359b6b = $(`<div id="html_eb545743933fff48bc3eb1b6ed359b6b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Rialto Cinemas Elmwood</h4>         anna: (3) rialto cinema in elmwood<br>Gayle Boyd: Elmwood theater🍻🤓     </div>     </div>`)[0];
+                popup_7aafefaf2b7b2ed9f310d30253fa638e.setContent(html_eb545743933fff48bc3eb1b6ed359b6b);
+            
+        
+
+        marker_ea2097465aa3dc94f9eda924e20b9c5d.bindPopup(popup_7aafefaf2b7b2ed9f310d30253fa638e)
+        ;
+
+        
+    
+    
+            marker_ea2097465aa3dc94f9eda924e20b9c5d.bindTooltip(
+                `<div>
+                     Rialto Cinemas Elmwood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3ae0597f2497becb8934c70ac8dd938 = L.marker(
+                [37.8575695, -122.27117219764197],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_6b075a9e429fa3c9184dbc98e6268e86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ad7a8c848e7eceb73ab38ee948cd06 = $(`<div id="html_d5ad7a8c848e7eceb73ab38ee948cd06" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Emma's House</h4>         Emma Caufield: come hangout at my house :)     </div>     </div>`)[0];
+                popup_6b075a9e429fa3c9184dbc98e6268e86.setContent(html_d5ad7a8c848e7eceb73ab38ee948cd06);
+            
+        
+
+        marker_f3ae0597f2497becb8934c70ac8dd938.bindPopup(popup_6b075a9e429fa3c9184dbc98e6268e86)
+        ;
+
+        
+    
+    
+            marker_f3ae0597f2497becb8934c70ac8dd938.bindTooltip(
+                `<div>
+                     Emma's House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3ff8977f7778fc40a5b2aa1645144d5 = L.marker(
+                [37.8661174, -122.58985865076625],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ac8608cfe8be922deaffbf510c5fdf90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_202788d6e87be6633c0574937af39d18 = $(`<div id="html_202788d6e87be6633c0574937af39d18" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Muir Beach</h4>         Kyla: muir beach, <br>milena (mulaney): Muir beach in the winter,      </div>     </div>`)[0];
+                popup_ac8608cfe8be922deaffbf510c5fdf90.setContent(html_202788d6e87be6633c0574937af39d18);
+            
+        
+
+        marker_e3ff8977f7778fc40a5b2aa1645144d5.bindPopup(popup_ac8608cfe8be922deaffbf510c5fdf90)
+        ;
+
+        
+    
+    
+            marker_e3ff8977f7778fc40a5b2aa1645144d5.bindTooltip(
+                `<div>
+                     Muir Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e2b29b31302a70ef1ea18a110ce4f06 = L.marker(
+                [37.873664, -122.257766],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_375250368f17700d940ef51fa17d1976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_966d84d84d79c24186fd85e272da4178 = $(`<div id="html_966d84d84d79c24186fd85e272da4178" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Evans Hall</h4>         Tasha Tanabe: 9th floor courtyard in Evans,     </div>     </div>`)[0];
+                popup_375250368f17700d940ef51fa17d1976.setContent(html_966d84d84d79c24186fd85e272da4178);
+            
+        
+
+        marker_7e2b29b31302a70ef1ea18a110ce4f06.bindPopup(popup_375250368f17700d940ef51fa17d1976)
+        ;
+
+        
+    
+    
+            marker_7e2b29b31302a70ef1ea18a110ce4f06.bindTooltip(
+                `<div>
+                     Evans Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_febb5ac6ad2c7af70dfdf229b4a36a94 = L.marker(
+                [37.87425655, -122.23870915696222],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e95769f9c2d5ed269f11d0e502fcf6f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f596e12f9fc0321ee1e0dac4bd0d464a = $(`<div id="html_f596e12f9fc0321ee1e0dac4bd0d464a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>University of California Botanical Garden</h4>         Chloe:  go check out the Dawn Redwoods at the botanical gardens if you haven’t already     </div>     </div>`)[0];
+                popup_e95769f9c2d5ed269f11d0e502fcf6f8.setContent(html_f596e12f9fc0321ee1e0dac4bd0d464a);
+            
+        
+
+        marker_febb5ac6ad2c7af70dfdf229b4a36a94.bindPopup(popup_e95769f9c2d5ed269f11d0e502fcf6f8)
+        ;
+
+        
+    
+    
+            marker_febb5ac6ad2c7af70dfdf229b4a36a94.bindTooltip(
+                `<div>
+                     University of California Botanical Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_774e61aa44750739043f381f51422b8f = L.marker(
+                [37.875483, -122.249686],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_829a4205b8d11db34c7e487f60f57d6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c213a5949f64097cb6da4e3f51f4858 = $(`<div id="html_4c213a5949f64097cb6da4e3f51f4858" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Big C</h4>         Vika Stukalova: the one swing in berk     </div>     </div>`)[0];
+                popup_829a4205b8d11db34c7e487f60f57d6d.setContent(html_4c213a5949f64097cb6da4e3f51f4858);
+            
+        
+
+        marker_774e61aa44750739043f381f51422b8f.bindPopup(popup_829a4205b8d11db34c7e487f60f57d6d)
+        ;
+
+        
+    
+    
+            marker_774e61aa44750739043f381f51422b8f.bindTooltip(
+                `<div>
+                     Big C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_756930abd1be9a507095e13ed2f4706e = L.marker(
+                [37.880786082379494, -122.24731276843936],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_aa2b05bd131408dd8b6f3004fab9efcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9c469bbd47984a6641f2252e105ff6e = $(`<div id="html_e9c469bbd47984a6641f2252e105ff6e" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Clark Kerr Fire Trail</h4>         Kai: top of clark kerr fire trails @sunrise/sunset,      </div>     </div>`)[0];
+                popup_aa2b05bd131408dd8b6f3004fab9efcd.setContent(html_e9c469bbd47984a6641f2252e105ff6e);
+            
+        
+
+        marker_756930abd1be9a507095e13ed2f4706e.bindPopup(popup_aa2b05bd131408dd8b6f3004fab9efcd)
+        ;
+
+        
+    
+    
+            marker_756930abd1be9a507095e13ed2f4706e.bindTooltip(
+                `<div>
+                     Clark Kerr Fire Trail
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_614ecb84581c442b06e317f7599c8b44 = L.marker(
+                [37.89584565, -122.2445433395358],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_921fad81c908cecb149202e23be8752c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_281f47624770c34fbea52bbcf4bf03e7 = $(`<div id="html_281f47624770c34fbea52bbcf4bf03e7" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Tilden Regional Park</h4>         kritis: tilden park,      </div>     </div>`)[0];
+                popup_921fad81c908cecb149202e23be8752c.setContent(html_281f47624770c34fbea52bbcf4bf03e7);
+            
+        
+
+        marker_614ecb84581c442b06e317f7599c8b44.bindPopup(popup_921fad81c908cecb149202e23be8752c)
+        ;
+
+        
+    
+    
+            marker_614ecb84581c442b06e317f7599c8b44.bindTooltip(
+                `<div>
+                     Tilden Regional Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c067e65dcba04af3d79fdcd91f24fea = L.marker(
+                [37.896390749999995, -122.58021828172045],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_1574f6373746d2b7a8923d15f3930373 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84492a666092f05a334faf8d8cd861f0 = $(`<div id="html_84492a666092f05a334faf8d8cd861f0" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Muir Woods National Monument</h4>         Joelle!: muir woods,<br>kritis: muir woods,<br>William Allan Bulris: One place around Berkeley that I very much enjoy is Muir Woods along with the surrounding Mt. Tamalpais. Its a beautiful mountain with an incredible view, giant beautiful trees, and greats hikes. I love it there Henry Donald and I recommend it with my highest regard.      </div>     </div>`)[0];
+                popup_1574f6373746d2b7a8923d15f3930373.setContent(html_84492a666092f05a334faf8d8cd861f0);
+            
+        
+
+        marker_5c067e65dcba04af3d79fdcd91f24fea.bindPopup(popup_1574f6373746d2b7a8923d15f3930373)
+        ;
+
+        
+    
+    
+            marker_5c067e65dcba04af3d79fdcd91f24fea.bindTooltip(
+                `<div>
+                     Muir Woods National Monument
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d8da9df070dd31659ce67d00ec13316 = L.marker(
+                [37.896828799999994, -122.61353772138847],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_3aa5e43c764b6f1610d841703ef5d391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a1ac53b4df2e013297e4c936ee40bc1 = $(`<div id="html_6a1ac53b4df2e013297e4c936ee40bc1" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Mount Tamalpais State Park</h4>         Daya: Mt tam<br>Shubhangi Bose:  Mt. Tamalpais,      </div>     </div>`)[0];
+                popup_3aa5e43c764b6f1610d841703ef5d391.setContent(html_6a1ac53b4df2e013297e4c936ee40bc1);
+            
+        
+
+        marker_3d8da9df070dd31659ce67d00ec13316.bindPopup(popup_3aa5e43c764b6f1610d841703ef5d391)
+        ;
+
+        
+    
+    
+            marker_3d8da9df070dd31659ce67d00ec13316.bindTooltip(
+                `<div>
+                     Mount Tamalpais State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed1e479c74bc1c7fdf0cb42a340cf0c0 = L.marker(
+                [37.899675149557616, -122.25668442440819],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_65d6e81924f877cbd14c9dbde2a6e840 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfdbdba1173b4de5b074fd8ad9a05719 = $(`<div id="html_cfdbdba1173b4de5b074fd8ad9a05719" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Wildcat Canyon Rd</h4>         Sophia Roy-Burman: wildcat canyon road,      </div>     </div>`)[0];
+                popup_65d6e81924f877cbd14c9dbde2a6e840.setContent(html_cfdbdba1173b4de5b074fd8ad9a05719);
+            
+        
+
+        marker_ed1e479c74bc1c7fdf0cb42a340cf0c0.bindPopup(popup_65d6e81924f877cbd14c9dbde2a6e840)
+        ;
+
+        
+    
+    
+            marker_ed1e479c74bc1c7fdf0cb42a340cf0c0.bindTooltip(
+                `<div>
+                     Wildcat Canyon Rd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcea1b869bb2d828ce07a1833ecadbfd = L.marker(
+                [37.89990349999999, -122.64231265043185],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c47d042b811f15fa56512dae42ea85e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ce658aa4f19dbd62994a46c860b6c58 = $(`<div id="html_3ce658aa4f19dbd62994a46c860b6c58" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Stinson Beach</h4>         antonia: Stinson beach     </div>     </div>`)[0];
+                popup_c47d042b811f15fa56512dae42ea85e6.setContent(html_3ce658aa4f19dbd62994a46c860b6c58);
+            
+        
+
+        marker_fcea1b869bb2d828ce07a1833ecadbfd.bindPopup(popup_c47d042b811f15fa56512dae42ea85e6)
+        ;
+
+        
+    
+    
+            marker_fcea1b869bb2d828ce07a1833ecadbfd.bindTooltip(
+                `<div>
+                     Stinson Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d960a5c02be98decaf985af7a583722b = L.marker(
+                [37.91975570552909, -122.50773026880366],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_3aa24fbfb88c9991dab7c9256e19b2a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_964c9f0856a7c444a711cca79fbb29ed = $(`<div id="html_964c9f0856a7c444a711cca79fbb29ed" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Ring Mountain</h4>         Trevor Fox: Ring Mountain (Tiburon),      </div>     </div>`)[0];
+                popup_3aa24fbfb88c9991dab7c9256e19b2a2.setContent(html_964c9f0856a7c444a711cca79fbb29ed);
+            
+        
+
+        marker_d960a5c02be98decaf985af7a583722b.bindPopup(popup_3aa24fbfb88c9991dab7c9256e19b2a2)
+        ;
+
+        
+    
+    
+            marker_d960a5c02be98decaf985af7a583722b.bindTooltip(
+                `<div>
+                     Ring Mountain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfb7436d0894bcbd945c462d374bd450 = L.marker(
+                [37.920808949999994, -122.04385492678173],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_73c6f682a9117eac0061ea137bf384ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f894214467d55e9296ee0316b0176c86 = $(`<div id="html_f894214467d55e9296ee0316b0176c86" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Heather Farm Park</h4>         Orlando: Heather farm park in walnut creek,      </div>     </div>`)[0];
+                popup_73c6f682a9117eac0061ea137bf384ce.setContent(html_f894214467d55e9296ee0316b0176c86);
+            
+        
+
+        marker_dfb7436d0894bcbd945c462d374bd450.bindPopup(popup_73c6f682a9117eac0061ea137bf384ce)
+        ;
+
+        
+    
+    
+            marker_dfb7436d0894bcbd945c462d374bd450.bindTooltip(
+                `<div>
+                     Heather Farm Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_249adf11cbb646395f80c41cd2d8a1cf = L.marker(
+                [37.943077200000005, -122.31005194852003],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_b3e0262be74a3dda1eacd3f1e77aeab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2b3b303c39e775887d8ec47cf6b56f4 = $(`<div id="html_c2b3b303c39e775887d8ec47cf6b56f4" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>The Gyuto Foundation Inc.</h4>         Kai Matson: The Gyuto foundation (Buddhist temple open to public in Richmond hills. Has fun trail and a lot to see),     </div>     </div>`)[0];
+                popup_b3e0262be74a3dda1eacd3f1e77aeab8.setContent(html_c2b3b303c39e775887d8ec47cf6b56f4);
+            
+        
+
+        marker_249adf11cbb646395f80c41cd2d8a1cf.bindPopup(popup_b3e0262be74a3dda1eacd3f1e77aeab8)
+        ;
+
+        
+    
+    
+            marker_249adf11cbb646395f80c41cd2d8a1cf.bindTooltip(
+                `<div>
+                     The Gyuto Foundation Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce686589a216b16c5c6cd65f610b81be = L.marker(
+                [37.96190445, -122.55833715],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e62bb782d2f889ccaa1b420fcc85c676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_172b9774df3fe1aca52bbe5b3092fe21 = $(`<div id="html_172b9774df3fe1aca52bbe5b3092fe21" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Phoenix Lake</h4>         Raquel: phoenix lake in marin,     </div>     </div>`)[0];
+                popup_e62bb782d2f889ccaa1b420fcc85c676.setContent(html_172b9774df3fe1aca52bbe5b3092fe21);
+            
+        
+
+        marker_ce686589a216b16c5c6cd65f610b81be.bindPopup(popup_e62bb782d2f889ccaa1b420fcc85c676)
+        ;
+
+        
+    
+    
+            marker_ce686589a216b16c5c6cd65f610b81be.bindTooltip(
+                `<div>
+                     Phoenix Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f12e7a8042427ae3ccb45cd85dd9120 = L.marker(
+                [37.974152000000004, -122.561743],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_57b0cbc43c744ce882aa69c2d7dfc997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa777a29321a4dcc9c8186c76b73f6f6 = $(`<div id="html_fa777a29321a4dcc9c8186c76b73f6f6" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Madcap</h4>         Jake Arft-Guatelli: Madcap,     </div>     </div>`)[0];
+                popup_57b0cbc43c744ce882aa69c2d7dfc997.setContent(html_fa777a29321a4dcc9c8186c76b73f6f6);
+            
+        
+
+        marker_1f12e7a8042427ae3ccb45cd85dd9120.bindPopup(popup_57b0cbc43c744ce882aa69c2d7dfc997)
+        ;
+
+        
+    
+    
+            marker_1f12e7a8042427ae3ccb45cd85dd9120.bindTooltip(
+                `<div>
+                     Madcap
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f36f8bbb37fb3f2af9c829df5f386c80 = L.marker(
+                [37.9980274, -122.53065697508458],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_2dd3ffd420fdff36b8289d024de2f3bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14519a21fb5ff4db005685832701a712 = $(`<div id="html_14519a21fb5ff4db005685832701a712" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Sunday Marin Farmers' Market</h4>         Joelle!: the marin county sunday farmers market      </div>     </div>`)[0];
+                popup_2dd3ffd420fdff36b8289d024de2f3bc.setContent(html_14519a21fb5ff4db005685832701a712);
+            
+        
+
+        marker_f36f8bbb37fb3f2af9c829df5f386c80.bindPopup(popup_2dd3ffd420fdff36b8289d024de2f3bc)
+        ;
+
+        
+    
+    
+            marker_f36f8bbb37fb3f2af9c829df5f386c80.bindTooltip(
+                `<div>
+                     Sunday Marin Farmers' Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_519f4a07fccf092870997908997c0420 = L.marker(
+                [38.087933, -122.81438071794099],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_4b6082e23cdd36177b662e89d1474929 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_844491fb3f4915e1ef85f96dad181bd8 = $(`<div id="html_844491fb3f4915e1ef85f96dad181bd8" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Point Reyes Station</h4>         Trevor Fox: Point Reyes Station     </div>     </div>`)[0];
+                popup_4b6082e23cdd36177b662e89d1474929.setContent(html_844491fb3f4915e1ef85f96dad181bd8);
+            
+        
+
+        marker_519f4a07fccf092870997908997c0420.bindPopup(popup_4b6082e23cdd36177b662e89d1474929)
+        ;
+
+        
+    
+    
+            marker_519f4a07fccf092870997908997c0420.bindTooltip(
+                `<div>
+                     Point Reyes Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71246ea74c54d9e4154bb9fec4ba8aab = L.marker(
+                [38.231534639640536, -122.63440631594197],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_884657687310542afd954ac69a59d9f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6be5c90bad1700c01fd7762897030b13 = $(`<div id="html_6be5c90bad1700c01fd7762897030b13" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Petaluma Blvd.</h4>         Shirlynn Chan: or downtown Petaluma     </div>     </div>`)[0];
+                popup_884657687310542afd954ac69a59d9f2.setContent(html_6be5c90bad1700c01fd7762897030b13);
+            
+        
+
+        marker_71246ea74c54d9e4154bb9fec4ba8aab.bindPopup(popup_884657687310542afd954ac69a59d9f2)
+        ;
+
+        
+    
+    
+            marker_71246ea74c54d9e4154bb9fec4ba8aab.bindTooltip(
+                `<div>
+                     Petaluma Blvd.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba6f02be534e5056b33dc868617952fb = L.marker(
+                [38.2481035, -122.95520923129016],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_9c01483739544fa81d4a5988721e752b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb0a1327a3ea4b369e2fa764485b17a1 = $(`<div id="html_fb0a1327a3ea4b369e2fa764485b17a1" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Dillon Beach</h4>         Shirlynn Chan: Marin - Dillon Beach area      </div>     </div>`)[0];
+                popup_9c01483739544fa81d4a5988721e752b.setContent(html_fb0a1327a3ea4b369e2fa764485b17a1);
+            
+        
+
+        marker_ba6f02be534e5056b33dc868617952fb.bindPopup(popup_9c01483739544fa81d4a5988721e752b)
+        ;
+
+        
+    
+    
+            marker_ba6f02be534e5056b33dc868617952fb.bindTooltip(
+                `<div>
+                     Dillon Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18caa8c3ed6c9c32b71968de6e2ae0cb = L.marker(
+                [38.29281485, -122.45770481416801],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_cde42378c72167a9a14620383dc16397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4a812620584b037a752aff7446d5861 = $(`<div id="html_e4a812620584b037a752aff7446d5861" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Sonoma Plaza</h4>         antonia: Downtown Sonoma + surrounding wine country!     </div>     </div>`)[0];
+                popup_cde42378c72167a9a14620383dc16397.setContent(html_e4a812620584b037a752aff7446d5861);
+            
+        
+
+        marker_18caa8c3ed6c9c32b71968de6e2ae0cb.bindPopup(popup_cde42378c72167a9a14620383dc16397)
+        ;
+
+        
+    
+    
+            marker_18caa8c3ed6c9c32b71968de6e2ae0cb.bindTooltip(
+                `<div>
+                     Sonoma Plaza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1bbb1984241e843f58eb5f5f7bb834d = L.marker(
+                [38.3019263, -122.281704],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_f5e56a71f204b8a452876cf306eb064f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee22b950da7eb75d31cf330cf95d0a9d = $(`<div id="html_ee22b950da7eb75d31cf330cf95d0a9d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Hog Island Oyster Co.</h4>         christina: hog island oysters in the ferry building     </div>     </div>`)[0];
+                popup_f5e56a71f204b8a452876cf306eb064f.setContent(html_ee22b950da7eb75d31cf330cf95d0a9d);
+            
+        
+
+        marker_a1bbb1984241e843f58eb5f5f7bb834d.bindPopup(popup_f5e56a71f204b8a452876cf306eb064f)
+        ;
+
+        
+    
+    
+            marker_a1bbb1984241e843f58eb5f5f7bb834d.bindTooltip(
+                `<div>
+                     Hog Island Oyster Co.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7f554043189fdff6d62a2dec3bc0b5f = L.marker(
+                [38.30770176897563, -122.29563719071287],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_d37b3e5290a46639b8565f7c223d3ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ad94e565fb0c03ead3b1687b4c71245 = $(`<div id="html_5ad94e565fb0c03ead3b1687b4c71245" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Butter Cream Bakery & Diner</h4>         Sylvie: Buttermilk Bakery (Napa Valley) I don't live here I don't have much else to give but that place is the bomb.com     </div>     </div>`)[0];
+                popup_d37b3e5290a46639b8565f7c223d3ed5.setContent(html_5ad94e565fb0c03ead3b1687b4c71245);
+            
+        
+
+        marker_d7f554043189fdff6d62a2dec3bc0b5f.bindPopup(popup_d37b3e5290a46639b8565f7c223d3ed5)
+        ;
+
+        
+    
+    
+            marker_d7f554043189fdff6d62a2dec3bc0b5f.bindTooltip(
+                `<div>
+                     Butter Cream Bakery & Diner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dd70b5c088f41213a4bb6860f2c218c = L.marker(
+                [38.3110284, -123.0661134],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c663abf710c0c799b095cd27522e02a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7cd2fef19b5716c59661f5efe4494cc = $(`<div id="html_d7cd2fef19b5716c59661f5efe4494cc" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Bodega Head</h4>         mallory mihm: bodega head,      </div>     </div>`)[0];
+                popup_c663abf710c0c799b095cd27522e02a4.setContent(html_d7cd2fef19b5716c59661f5efe4494cc);
+            
+        
+
+        marker_2dd70b5c088f41213a4bb6860f2c218c.bindPopup(popup_c663abf710c0c799b095cd27522e02a4)
+        ;
+
+        
+    
+    
+            marker_2dd70b5c088f41213a4bb6860f2c218c.bindTooltip(
+                `<div>
+                     Bodega Head
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8de46f5ef5606277bf452fb64349776 = L.marker(
+                [38.42182526378404, -123.1084474083655],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_dc5a757ea46e51a31e7ae5448f24971e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b34d7d10aad74f0852b567ee80fb4a6d = $(`<div id="html_b34d7d10aad74f0852b567ee80fb4a6d" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Kortum Trail</h4>         mallory mihm: kortum trail,      </div>     </div>`)[0];
+                popup_dc5a757ea46e51a31e7ae5448f24971e.setContent(html_b34d7d10aad74f0852b567ee80fb4a6d);
+            
+        
+
+        marker_a8de46f5ef5606277bf452fb64349776.bindPopup(popup_dc5a757ea46e51a31e7ae5448f24971e)
+        ;
+
+        
+    
+    
+            marker_a8de46f5ef5606277bf452fb64349776.bindTooltip(
+                `<div>
+                     Kortum Trail
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14d1fb524c9567c7ad0fef212a45f346 = L.marker(
+                [38.43482435, -122.97387778252714],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_835e4b709f65c8e6fb23bc1067f0b09e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c8e20414b66eb32b8ce7df0670a9d06 = $(`<div id="html_5c8e20414b66eb32b8ce7df0670a9d06" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Alliance Redwood</h4>         Samantha Cinelli: Alliance Redwoods,      </div>     </div>`)[0];
+                popup_835e4b709f65c8e6fb23bc1067f0b09e.setContent(html_5c8e20414b66eb32b8ce7df0670a9d06);
+            
+        
+
+        marker_14d1fb524c9567c7ad0fef212a45f346.bindPopup(popup_835e4b709f65c8e6fb23bc1067f0b09e)
+        ;
+
+        
+    
+    
+            marker_14d1fb524c9567c7ad0fef212a45f346.bindTooltip(
+                `<div>
+                     Alliance Redwood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eac957c81f31e6f7a17b61adc423b07 = L.marker(
+                [38.4490391, -123.1148839],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_7376f08934c4b0c912966b1095149a27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c12f3ec8673dfaf002afaa1deba68b7 = $(`<div id="html_8c12f3ec8673dfaf002afaa1deba68b7" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Cafe Aquatica</h4>         wavey cramer: cafe aquatica      </div>     </div>`)[0];
+                popup_7376f08934c4b0c912966b1095149a27.setContent(html_8c12f3ec8673dfaf002afaa1deba68b7);
+            
+        
+
+        marker_6eac957c81f31e6f7a17b61adc423b07.bindPopup(popup_7376f08934c4b0c912966b1095149a27)
+        ;
+
+        
+    
+    
+            marker_6eac957c81f31e6f7a17b61adc423b07.bindTooltip(
+                `<div>
+                     Cafe Aquatica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fe7af17847c3ea25ced60c085e94b4f = L.marker(
+                [38.460346799999996, -122.73582679090012],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_63b97b6a7e166543de88049bdf2d77be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d334ac8b202fb2290e2399c8fae3d08b = $(`<div id="html_d334ac8b202fb2290e2399c8fae3d08b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Charles M. Schulz Museum and Research Center</h4>         christina: charles schulz museum (santa rosa)     </div>     </div>`)[0];
+                popup_63b97b6a7e166543de88049bdf2d77be.setContent(html_d334ac8b202fb2290e2399c8fae3d08b);
+            
+        
+
+        marker_6fe7af17847c3ea25ced60c085e94b4f.bindPopup(popup_63b97b6a7e166543de88049bdf2d77be)
+        ;
+
+        
+    
+    
+            marker_6fe7af17847c3ea25ced60c085e94b4f.bindTooltip(
+                `<div>
+                     Charles M. Schulz Museum and Research Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bacd688511ef34a128f3540f16156fa = L.marker(
+                [38.4898675, -122.3218414],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_359fb68714cf7f98e010c4df63b5aa53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2890fc5b785d065e61883ec29b03db9e = $(`<div id="html_2890fc5b785d065e61883ec29b03db9e" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Napa</h4>         Raquel: and Napa duh     </div>     </div>`)[0];
+                popup_359fb68714cf7f98e010c4df63b5aa53.setContent(html_2890fc5b785d065e61883ec29b03db9e);
+            
+        
+
+        marker_5bacd688511ef34a128f3540f16156fa.bindPopup(popup_359fb68714cf7f98e010c4df63b5aa53)
+        ;
+
+        
+    
+    
+            marker_5bacd688511ef34a128f3540f16156fa.bindTooltip(
+                `<div>
+                     Napa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_111826aeb8ddd57b6e808079e2f71386 = L.marker(
+                [38.5810606, -121.493895],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_00ad3f8aa979a6a29b448a06ba9638b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0867d09026d14ce29fd186227227eb9b = $(`<div id="html_0867d09026d14ce29fd186227227eb9b" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Sacramento</h4>         Elias: the city of Sacramento     </div>     </div>`)[0];
+                popup_00ad3f8aa979a6a29b448a06ba9638b1.setContent(html_0867d09026d14ce29fd186227227eb9b);
+            
+        
+
+        marker_111826aeb8ddd57b6e808079e2f71386.bindPopup(popup_00ad3f8aa979a6a29b448a06ba9638b1)
+        ;
+
+        
+    
+    
+            marker_111826aeb8ddd57b6e808079e2f71386.bindTooltip(
+                `<div>
+                     Sacramento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f668ea615c11662edf69472a7564d3cb = L.marker(
+                [38.583445, -121.498534],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_b060ea0498d78392c4e0802afc903ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74eb4453ab09bbc7af74cc936ee44bc4 = $(`<div id="html_74eb4453ab09bbc7af74cc936ee44bc4" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Tower Theatre</h4>         Samantha Cinelli: Tower theater in Sacramento,      </div>     </div>`)[0];
+                popup_b060ea0498d78392c4e0802afc903ec8.setContent(html_74eb4453ab09bbc7af74cc936ee44bc4);
+            
+        
+
+        marker_f668ea615c11662edf69472a7564d3cb.bindPopup(popup_b060ea0498d78392c4e0802afc903ec8)
+        ;
+
+        
+    
+    
+            marker_f668ea615c11662edf69472a7564d3cb.bindTooltip(
+                `<div>
+                     Tower Theatre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c30bbe1a9d3e7e24270d866e9bf1616 = L.marker(
+                [38.7934688, -123.0043152],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_e0178623b46795ceef727ca9043cea72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f2275577c5972d7c04ff2418d1a32ee = $(`<div id="html_7f2275577c5972d7c04ff2418d1a32ee" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Russian River</h4>         wavey cramer: russian river (guerneville),      </div>     </div>`)[0];
+                popup_e0178623b46795ceef727ca9043cea72.setContent(html_7f2275577c5972d7c04ff2418d1a32ee);
+            
+        
+
+        marker_9c30bbe1a9d3e7e24270d866e9bf1616.bindPopup(popup_e0178623b46795ceef727ca9043cea72)
+        ;
+
+        
+    
+    
+            marker_9c30bbe1a9d3e7e24270d866e9bf1616.bindTooltip(
+                `<div>
+                     Russian River
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1422dff03535381d1d8cef7ab5bbf8fe = L.marker(
+                [39.3057639, -122.71201653708488],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_f92ba1b949562e3a13ccaf294c593d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_722101bb0336a15a6d619bfa1085b519 = $(`<div id="html_722101bb0336a15a6d619bfa1085b519" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Letts Lake, Mendocino National Forest</h4>         Elias:  Letts lake     </div>     </div>`)[0];
+                popup_f92ba1b949562e3a13ccaf294c593d89.setContent(html_722101bb0336a15a6d619bfa1085b519);
+            
+        
+
+        marker_1422dff03535381d1d8cef7ab5bbf8fe.bindPopup(popup_f92ba1b949562e3a13ccaf294c593d89)
+        ;
+
+        
+    
+    
+            marker_1422dff03535381d1d8cef7ab5bbf8fe.bindTooltip(
+                `<div>
+                     Letts Lake, Mendocino National Forest
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0139aba44f2998521cd738256b6600ea = L.marker(
+                [39.4436579, -123.8057607],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_55f4623aab7c4ccb4bfa4efd861509af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ac441ec75c2d99dfaa495541be8f527 = $(`<div id="html_1ac441ec75c2d99dfaa495541be8f527" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Fort Bragg</h4>         Lauren Gonzalez: fort Bragg,      </div>     </div>`)[0];
+                popup_55f4623aab7c4ccb4bfa4efd861509af.setContent(html_1ac441ec75c2d99dfaa495541be8f527);
+            
+        
+
+        marker_0139aba44f2998521cd738256b6600ea.bindPopup(popup_55f4623aab7c4ccb4bfa4efd861509af)
+        ;
+
+        
+    
+    
+            marker_0139aba44f2998521cd738256b6600ea.bindTooltip(
+                `<div>
+                     Fort Bragg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8192eeeb6288da721be487a1e178a4a8 = L.marker(
+                [39.5932207, -121.2563504],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_fe0c6c4b41b2c2840646003a80d42f87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23acb1f78e1f002ff46a38dabcb767a = $(`<div id="html_f23acb1f78e1f002ff46a38dabcb767a" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Feather Falls</h4>         Daya: feather falls     </div>     </div>`)[0];
+                popup_fe0c6c4b41b2c2840646003a80d42f87.setContent(html_f23acb1f78e1f002ff46a38dabcb767a);
+            
+        
+
+        marker_8192eeeb6288da721be487a1e178a4a8.bindPopup(popup_fe0c6c4b41b2c2840646003a80d42f87)
+        ;
+
+        
+    
+    
+            marker_8192eeeb6288da721be487a1e178a4a8.bindTooltip(
+                `<div>
+                     Feather Falls
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_600e5494ab45b8ef5d21af91095b5340 = L.marker(
+                [40.6799638, -122.3626507],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_038a83e000ee21fe41ea7da5faf1e970 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e282cfeb0131b734633753c8f9e05f9c = $(`<div id="html_e282cfeb0131b734633753c8f9e05f9c" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Shasta Lake</h4>         JFink: Shasta Lake.<br>Maddy: Shasta Lake     </div>     </div>`)[0];
+                popup_038a83e000ee21fe41ea7da5faf1e970.setContent(html_e282cfeb0131b734633753c8f9e05f9c);
+            
+        
+
+        marker_600e5494ab45b8ef5d21af91095b5340.bindPopup(popup_038a83e000ee21fe41ea7da5faf1e970)
+        ;
+
+        
+    
+    
+            marker_600e5494ab45b8ef5d21af91095b5340.bindTooltip(
+                `<div>
+                     Shasta Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e1735753abc85c298bbba9086094adf = L.marker(
+                [40.7906871, -124.1673746],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_04cd2ea1226e53c6a20c25c753133e10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3978d4cc4a146f6b9125a59fefa145c5 = $(`<div id="html_3978d4cc4a146f6b9125a59fefa145c5" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Eureka</h4>         Lauren Gonzalez: somewhere in Humboldt county (like eureka)     </div>     </div>`)[0];
+                popup_04cd2ea1226e53c6a20c25c753133e10.setContent(html_3978d4cc4a146f6b9125a59fefa145c5);
+            
+        
+
+        marker_6e1735753abc85c298bbba9086094adf.bindPopup(popup_04cd2ea1226e53c6a20c25c753133e10)
+        ;
+
+        
+    
+    
+            marker_6e1735753abc85c298bbba9086094adf.bindTooltip(
+                `<div>
+                     Eureka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9b47d010b90e2a1b67c83c5ece1ac8a = L.marker(
+                [41.005859, -123.048539],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_c4a5b060ffbbdb47f5d65b74ef0e234e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_952f1ef5517bc3c6f73386623e8210b2 = $(`<div id="html_952f1ef5517bc3c6f73386623e8210b2" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Trinity Alps</h4>         Sophia Roy-Burman: trinity alps!     </div>     </div>`)[0];
+                popup_c4a5b060ffbbdb47f5d65b74ef0e234e.setContent(html_952f1ef5517bc3c6f73386623e8210b2);
+            
+        
+
+        marker_b9b47d010b90e2a1b67c83c5ece1ac8a.bindPopup(popup_c4a5b060ffbbdb47f5d65b74ef0e234e)
+        ;
+
+        
+    
+    
+            marker_b9b47d010b90e2a1b67c83c5ece1ac8a.bindTooltip(
+                `<div>
+                     Trinity Alps
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ddaf4761471cd8a162b6238a1f083a3 = L.marker(
+                [41.240927, -122.008907],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_ccdd474ff2da02b089b72105b530e8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28831677be797e4ea213bf93002c801 = $(`<div id="html_b28831677be797e4ea213bf93002c801" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>McCloud Falls - Upper Fall</h4>         Bridget: I swear by these places, Henry. 1) McCloud waterfalls near Mt Shasta: perfect pit stop for road trip to Oregon      </div>     </div>`)[0];
+                popup_ccdd474ff2da02b089b72105b530e8e9.setContent(html_b28831677be797e4ea213bf93002c801);
+            
+        
+
+        marker_2ddaf4761471cd8a162b6238a1f083a3.bindPopup(popup_ccdd474ff2da02b089b72105b530e8e9)
+        ;
+
+        
+    
+    
+            marker_2ddaf4761471cd8a162b6238a1f083a3.bindTooltip(
+                `<div>
+                     McCloud Falls - Upper Fall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54cff8e7f3ebb3d8cb659cf9fab1e5c5 = L.marker(
+                [41.4091977, -122.1948645],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_0bce58e11e972d79522ce41609c15e02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cca0221caea54140372c9bb20764a226 = $(`<div id="html_cca0221caea54140372c9bb20764a226" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Mount Shasta</h4>         Nile: Mt. Shasta,     </div>     </div>`)[0];
+                popup_0bce58e11e972d79522ce41609c15e02.setContent(html_cca0221caea54140372c9bb20764a226);
+            
+        
+
+        marker_54cff8e7f3ebb3d8cb659cf9fab1e5c5.bindPopup(popup_0bce58e11e972d79522ce41609c15e02)
+        ;
+
+        
+    
+    
+            marker_54cff8e7f3ebb3d8cb659cf9fab1e5c5.bindTooltip(
+                `<div>
+                     Mount Shasta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4b31a04af58fb8bfd5d239ba65c046d = L.marker(
+                [45.463856, -123.973731],
+                {}
+            ).addTo(map_f3de881a4c86e6a2dd352af99ac6d610);
+        
+    
+        var popup_b6901a22841928b65abf6db03c415ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1b498e6452e03683154e3c8bc42088f = $(`<div id="html_b1b498e6452e03683154e3c8bc42088f" style="width: 100.0%; height: 100.0%;">     <div style="width:300px">         <h4>Tunnel Beach</h4>         Shubhangi Bose: Tunnel Beach (OR),     </div>     </div>`)[0];
+                popup_b6901a22841928b65abf6db03c415ff6.setContent(html_b1b498e6452e03683154e3c8bc42088f);
+            
+        
+
+        marker_b4b31a04af58fb8bfd5d239ba65c046d.bindPopup(popup_b6901a22841928b65abf6db03c415ff6)
+        ;
+
+        
+    
+    
+            marker_b4b31a04af58fb8bfd5d239ba65c046d.bindTooltip(
+                `<div>
+                     Tunnel Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
