@@ -1,2 +1,2 @@
 # interactive-birthday-atlas
-Compiled place recommendations from Henry's 21st into an interactive map. Created with Folium and HTML, live at this repo's page, found here: [text](https://alisongx.github.io/interactive-birthday-atlas/)
+Compiled place recommendations from Henry's 21st birthday guests into an interactive map created with Folium and HTML. Live at this repo's page, link found [here.](https://alisongx.github.io/interactive-birthday-atlas/)
